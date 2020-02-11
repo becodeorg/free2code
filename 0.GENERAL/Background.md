@@ -1,7 +1,5 @@
 # The internet
 
-### Index
-
 ## Birth of the internet
 
 **Tim Berners-Lee**, a British scientist, invented the World Wide Web (WWW) in **1989**, while working at **CERN**. The web was originally conceived and developed to meet the demand for automated information-sharing between scientists in universities and institutes around the world.
@@ -34,10 +32,14 @@ To make the Web more widely accessible (because almost nobody had a NeXT machine
 
 ## Language of the Internet
 
-Computers and by extension web browsers are inherently dumb. We can't expect a computer to read a text document an make a distinction between titles, paragraphs, links, lists, etc. Let's put ourselves in the shoes of a computer and take a look at a document you most likely won't understand:
+### HyperText Markup Language
 
-**image goes here**
+HTML (**H**yper**t**ext **M**arkup **L**anguage) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables. 
 
-Just like we can't give **meaning** to the text in the above example, computers can't give meaning to the data they get from the web.
+HTML consists of a **series of elements**, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
+
+
+
+
 
 
