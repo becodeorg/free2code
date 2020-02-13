@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #2E86AB;
+  font-size: 3rem;
+}
+
+ul{
+  width:60%;
+}
+
+li{
+  font-size:1.8rem;
+  padding:.5rem 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+p:first-child{
+  flex:4;
+  font-weight: bold;
+}
+
+p:nth-child(2){
+  flex:1;
+}
+
+p:nth-child(3){
+  flex:2;
+}

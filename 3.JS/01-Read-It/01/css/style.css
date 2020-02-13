@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #2E86AB;
+  font-size: 3rem;
+}
