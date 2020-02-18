@@ -11,6 +11,9 @@
 1. CSS
 2. Logical Thinking games (Blockly)
 1. JavaScript
+	1. [Read It](./3.JS/01-Read-It)
+	2. [Fix It](./3.JS/02-Fix-It)
+	3. [Write It](./3.JS/03-Write-It)
 
 
 ## Content Progress
