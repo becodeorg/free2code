@@ -10,6 +10,7 @@
 1. [HTML - Semantics exercises](./1.HTML/exercises/Semantics)
 1. CSS
 2. Logical Thinking games (Blockly)
+	1. https://blockly.games ([offline](https://github.com/google/blockly-games/wiki/Offline) version)
 1. JavaScript
 	1. [Read It](./3.JS/01-Read-It)
 	2. [Fix It](./3.JS/02-Fix-It)
