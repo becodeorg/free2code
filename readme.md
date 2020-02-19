@@ -3,6 +3,8 @@
 ## Index
 
 1. [Level 0 - Computer Literacy Quizz](./level0-quizz.md)
+1. [General Intro to the course](./0.GENERAL/General-Introduction.md)
+2. Quizz: Silent Teacher-like LUX
 1. [History of the Internet and The First Browser](./0.GENERAL/Background.md)
 1. [HTML - html5](./1.HTML/2.HTML5.md)
 1. [HTML - html5 exercises](./1.HTML/exercises/Intro)
@@ -15,6 +17,8 @@
 	1. [Read It](./3.JS/01-Read-It)
 	2. [Fix It](./3.JS/02-Fix-It)
 	3. [Write It](./3.JS/03-Write-It)
+
+
 
 
 ## Content Progress
