@@ -19,7 +19,7 @@ The best way to learn coding, is just like cooking... By doing it! This is why t
 No, you don't. Coding is about trying until it works. So we all start by failing! Get used to it, failure is part of the learning process. Just keep trying, you will make it!
 
 ## A final word from the team
-![Free To Code Welcome Picture](./assets/Free-to-code-welcome-picture.jpg)
+![Free To Code Welcome Picture](./assets/welcome.jpg)
 
 Ready ? Let's go! 
 
