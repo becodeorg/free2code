@@ -493,7 +493,6 @@ body {
 &lt;h1&gt;This is a Heading&lt;/h1&gt;
 &lt;p&gt;This is a paragraph.&lt;/p&gt;
 &lt;p&gt;Edit the code in the window to the left, and click "Run" to view the result.&lt;/p&gt;
-&lt;img src="avatar.png" alt="Avatar" style="width:200px"&gt;
 
 &lt;/body&gt;
 &lt;/html&gt;
@@ -869,7 +868,12 @@ body {
           addModeClass: true
         }
       );
-      //  window.editor.on("change", function () {window.editor.save();});
+
+      if (window.editor) {
+        window.editor.on("change", function () {
+          submitTryit(1);
+        });
+      }
     }
     colorcoding();
 
