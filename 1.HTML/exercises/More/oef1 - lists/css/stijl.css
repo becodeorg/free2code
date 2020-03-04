@@ -1,0 +1,35 @@
+html {
+    font-size: 62.5%;
+    background-color: #F3F3F3;
+    font-family: helvetica;
+}
+
+nav {
+    background-color: #42D07C;
+}
+
+h1 {
+    color: white;
+    background-color: #42D07C;
+}
+
+a:active {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+em {
+    font-style: italic;
+}
+
+ol {
+    background-color: #FFFFFF;
+}
+
+.geleAchtergrond {
+    background-color: yellow;
+}

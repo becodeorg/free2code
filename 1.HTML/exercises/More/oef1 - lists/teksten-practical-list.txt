@@ -1,0 +1,19 @@
+Practical Lists
+
+grocery list
+	coffee
+	candy
+	bread
+	honey
+	tomatoes
+tasks
+	code new site
+	design birthday card
+	poster conference
+	maintain old site
+housekeeping
+	dishes
+	wipe bathroom sinks and mirrors
+	clean living room
+	change sheets bedroom
+	clean oven & microwave
