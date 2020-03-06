@@ -1,0 +1,16 @@
+#help pre {
+  direction: ltr;
+  font-size: large;
+}
+
+#help .blocklyDraggable {
+  cursor: default;
+}
+
+#help .blocklyEditableText:hover>rect {
+  stroke: none;
+}
+
+#help svg {
+  direction: ltr;
+}
