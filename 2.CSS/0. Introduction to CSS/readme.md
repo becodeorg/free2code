@@ -39,7 +39,32 @@ Easy again! As you can see, you can add up properties using a semicolon (the cha
 
 ## The CSS Syntax
 
-Now, in the above examples, the CSS is written *into* the HTML code as part of an attribute called `style`. That way of adding css is called **inline CSS**. It works and can be handy sometimes, but it's really not recommended as you would quickly get a file with a lot of html and css mixed together, which makes changing the page really tedious. There are 2 other, better, ways.
+Look at this schematic, which sums all how to write CSS in a way that the browser understands it.
+
+![](/Users/aplennevaux/GITHUB/becode-projects/free2code/2.CSS/0. Introduction to CSS/selector.gif)
+
+
+
+As you can see, there are fancy words here. Don't panick, there won't be much more :-)
+
+"**selector**" indicates which element(s) of your HTML file should receive the instructions. It points to the HTML element you want to style.
+
+The **declaration** block contains one or more declarations separated by semicolons.
+
+Each declaration includes a CSS **property name** and a **value**, separated by a colon (`:`).
+
+A CSS declaration always ends with a semicolon (`;`), and declaration blocks are surrounded by curly braces. Example:
+
+```css
+p {
+  color: red;
+  text-align: center;
+}
+```
+
+## Where to put your CSS ?
+
+In the above examples, the CSS is written *into* the HTML code as part of an attribute called `style`. That way of adding css is called **inline CSS**. It works and can be handy sometimes, but it's really not recommended as you would quickly get a file with a lot of html and css mixed together, which makes changing the page really tedious. There are 2 other, better, ways.
 
 ### 1. The <style> tag
 
@@ -83,5 +108,49 @@ Fortunately, you can define/create your CSS styles in a separate file and then l
 ```
 
 ### Working with colours
+
+Colours are a big part of how things look. And we, humans, love colour ! 
+
+There are many millions of colours available in Nature.... Which was quite a challenge to transfer in the digital world of computers.  First, there were only a few colours available, using predefined colour names (like "red", "blue", "beige", "chocolate")... 
+
+### Named colours
+
+A set of standard color names have been defined, letting you use these keywords instead of numeric representations of colors if you choose to do so and there's a keyword representing the exact color you want to use. Color keywords include the standard primary and secondary colors (such as `red`, `blue`, or `orange`), shades of gray (from `black` to `white`, including colors like `darkgray` and `lightgrey`), and a variety of other blended colors including `lightseagreen`, `cornflowerblue`, and `rebeccapurple`.
+
+It's nice to know they exist, but you will feel fastly limited by having only 140 colours.. So let's rather move on to the next way to express colour values...
+
+### The RGB system
+
+Quickly computers became more powerful and able to manipulate millions of different colors, using a mix of the fundamental 3 colours of the screen: Red, Green and Blue, which is known as the "RGB system". 
+
+```css
+p{
+color: rgb(255, 0, 0);
+}
+```
+
+This says "I want the maximum of Red (maximum is 255), no green (0), and no blue... Leading to a full bright red color.
+
+This is exactly the same as 
+
+```css
+p{
+color: red;
+}
+```
+
+So if, for example, you really want that specific shade of blue that describes the Scottish sky in Spring, then you need to find its correct translation in the RGB system.
+
+```css
+p{
+color: rgb(0, 182, 255);
+}
+```
+
+
+
+### The Hexadecimal system
+
+
 
 ### Playing with borders
