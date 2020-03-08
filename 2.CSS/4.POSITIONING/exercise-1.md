@@ -1,7 +1,5 @@
 # CSS Integration exercises
 
-
-
 **Instructions**
 
 You work in a Web Design agency as Frontend Integrator. The UI Designer provides you with images representing a high-fidelity mockup of the website's interface components. 
@@ -21,7 +19,9 @@ The CSS has to be in a `<style>`tag, no inline CSS.
 ```html
 <html>
 <head>
-<style>
+	<meta charset="utf-8" />
+	    
+	<style>
 /* Put your styling here */
 </style>
 </head>

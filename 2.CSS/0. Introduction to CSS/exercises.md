@@ -121,5 +121,3 @@ Let's make the last exercise look better, using more advanced techniques. Use th
 **Content in the editor**
 
 --> same as exercise 3.
-
-

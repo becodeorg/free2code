@@ -19,6 +19,7 @@ The CSS has to be in a `<style>`tag, no inline CSS.
 ```html
 <html>
 <head>
+
 <style>
 /* Put your styling here */
 </style>
