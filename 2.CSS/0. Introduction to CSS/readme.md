@@ -171,7 +171,13 @@ Just know that it exists and that you will be able to use it if you want. We wil
 
 ### Playing with borders
 
-By default, without styling, each tag is rendered as a rectangle which background and borders are transparent. It does not have to stay that way!
+By default, without styling, each tag is rendered as a rectangle which background and borders are **transparent**. It does not have to stay that way!
+
+Here is a visual representation of that rectangle, called the "box model".
+
+![](/Users/aplennevaux/GITHUB/becode-projects/free2code/2.CSS/0. Introduction to CSS/css-block.png)
+
+This image represents how you can play with `border`, `margin`, `padding` to style any HTML tag!
 
 Check this out:
 
@@ -182,15 +188,14 @@ p{
     border-bottom: 2px dotted green;
     border-left: 2px dashed green;
     padding:10px;
+    padding-right:12px;
     background-color: yellow;
 }
 ```
 
-That sure won't look exactly pretty, but that's not the concern yet.
+That sure won't look *exactly* pretty, but that's not the concern yet.
 
 As you can see, you can specify each border of the rectangle using 3 parameters: the **thickness** of the line (here, in pixels), the line **type** (`solid`,  `dashed`, `dotted`), and its **colour**.
-
-
 
 ### Comments in CSS
 
@@ -206,8 +211,6 @@ p {
 ```
 
 You can add comments wherever you want in the code:
-
-
 
 ```css
 p {
@@ -227,8 +230,6 @@ p {
 }
 ```
 
-
-
 # Conclusion: let's practice!
 
-All right you that was a lot already. Let's do some exercises! 
+All right that was a lot already. Let's do some exercises! 
