@@ -43,8 +43,6 @@ Look at this schematic, which sums all how to write CSS in a way that the browse
 
 ![](/Users/aplennevaux/GITHUB/becode-projects/free2code/2.CSS/0. Introduction to CSS/selector.gif)
 
-
-
 As you can see, there are fancy words here. Don't panick, there won't be much more :-)
 
 "**selector**" indicates which element(s) of your HTML file should receive the instructions. It points to the HTML element you want to style.
@@ -107,7 +105,7 @@ Fortunately, you can define/create your CSS styles in a separate file and then l
 <link href="myFirstStyleSheet.css" rel="stylesheet"  type="text/css">
 ```
 
-### Working with colours
+## Working with colours
 
 Colours are a big part of how things look. And we, humans, love colour ! 
 
@@ -147,10 +145,90 @@ color: rgb(0, 182, 255);
 }
 ```
 
+#### Transparency !
 
+You can also use a fourth value, to set the "alpha", which means "transparency" (or "opacity" if you prefer). Its value goes from 0 (totally transparent, the tag would be invisible) to 1 (fully opaque). 
+
+So let's say you want an orange square with 60% transparency, you would do this:
+
+```css
+div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 221, 0,0.6);
+}
+```
 
 ### The Hexadecimal system
 
+For your information, there is yet another way to express the colour values, using the Hexadecimal system. In that system, `red` for example is expressed as `#FF0000`  , `black`is `#000000`and white : `#FFFFFF`.
 
+Hexadecimal system functions from values going from 0 to 9 and continues to A up to F for a total of 16 values. By using 6 Hexadecimal values, you are able to express 256 millions of colours.
+
+The first 2 digits describe the value of Red, the next 2 the values of Green, and the last two the values of Blue.
+
+Just know that it exists and that you will be able to use it if you want. We will not really dig into that in this training.
 
 ### Playing with borders
+
+By default, without styling, each tag is rendered as a rectangle which background and borders are transparent. It does not have to stay that way!
+
+Check this out:
+
+```css
+p{
+    border-top:1px solid red;
+    border-right: 1px solid black;
+    border-bottom: 2px dotted green;
+    border-left: 2px dashed green;
+    padding:10px;
+    background-color: yellow;
+}
+```
+
+That sure won't look exactly pretty, but that's not the concern yet.
+
+As you can see, you can specify each border of the rectangle using 3 parameters: the **thickness** of the line (here, in pixels), the line **type** (`solid`,  `dashed`, `dotted`), and its **colour**.
+
+
+
+### Comments in CSS
+
+Comments are used to explain the code, and may help when you edit the source code at a later date.  Comments are **ignored by browsers**.
+
+A CSS comment starts with `/*` and ends with `*/`:
+
+```css
+/* This is a single-line comment */
+p {
+  color: red;
+}
+```
+
+You can add comments wherever you want in the code:
+
+
+
+```css
+p {
+  color: red;  /* Set text color to red */
+}
+```
+
+Comments can also span multiple lines:
+
+```css
+/* This is
+a multi-line
+comment */
+
+p {
+  color: red;
+}
+```
+
+
+
+# Conclusion: let's practice!
+
+All right you that was a lot already. Let's do some exercises! 
