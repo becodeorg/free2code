@@ -211,7 +211,7 @@ Just know that it exists and that you will be able to use it if you want. We wil
 
 
 
-### Playing with borders
+## Playing with borders
 
 By default, without styling, each tag is rendered as a rectangle which background and borders are **transparent**. It does not have to stay that way!
 
@@ -285,7 +285,7 @@ Play with it's values, we will discuss this in group later on.
 
 
 
-### Comments in CSS
+## Comments in CSS
 
 Comments are used to explain the code, and may help when you edit the source code at a later date.  Comments are **ignored by browsers**.
 
