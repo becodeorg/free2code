@@ -1,14 +1,12 @@
 # CSS Integration exercises
 
-
-
 **Instructions**
 
 You work in a Web Design agency as Frontend Integrator. The UI Designer provides you with images representing a high-fidelity mockup of the website's interface components. 
 
 Your job is to reproduce in html and CSS each of these components. Each UI component has been validated by your customer. It's therefore really important that the end-result looks as close as possible to the mockups.
 
-Look at this image: ![](/Users/aplennevaux/GITHUB/becode-projects/free2code/2.CSS/4.POSITIONING/resources/integration-challenge-4.png)
+Look at this image: ![](resources/integration-challenge-7.png)
 
 Reproduce this interface as close as possible using html and CSS. You have to reach the closest "pixel-perfect" version you can. Ideally, we should not see any difference between the image mockup and your result, without using any image. Images are only accepted for illustrations, when there is no CSS alternative.
 
@@ -21,7 +19,9 @@ The CSS has to be in a `<style>`tag, no inline CSS.
 ```html
 <html>
 <head>
-<style>
+	<meta charset="utf-8" />
+	    
+	<style>
 /* Put your styling here */
 </style>
 </head>
