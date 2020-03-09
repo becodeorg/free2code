@@ -121,3 +121,23 @@ Let's make the last exercise look better, using more advanced techniques. Use th
 **Content in the editor**
 
 --> same as exercise 3.
+
+# 5. Exercise: borders
+
+**Instruction**
+
+Look at this stylish double underline below : the blue thick line spreads the word's length, while the grey line spreads over the entire block. Try to mimick by using CSS on the H2 and the P tags!
+
+![Double underline exercise](./exercise-doubleUnderline.png)
+
+**Content in the editor**
+
+```html
+<body>
+    <h2>About Us</h2>
+    <p>Look at this stylish double underline above: the blue thick line spreads the word's length, while the grey line
+  spreads over the entire block. Try to mimick by using CSS on the H2 and the P tags!</p>
+</body>
+```
+
+
