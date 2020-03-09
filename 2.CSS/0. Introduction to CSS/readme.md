@@ -16,13 +16,13 @@ That's because on top of their HTML, these pages are using another language, cal
 
 In other words, CSS allows us to turn this:
 
-![](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/1.INTRO/resources/images/without-css.png)
+![](resources/images/without-css.png)
 
 
 
 Into that:
 
-![](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/1.INTRO/resources/images/with-css.png)
+![](resources/images/with-css.png)
 
 ## What is CSS?
 
@@ -39,7 +39,7 @@ It's a must-have skill for any web developer out there.
 
 Look at this schematic, which sums all how to write CSS in a way that the browser understands it.
 
-![](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/1.INTRO/resources/images/selector.gif)
+![](resources/images/selector.gif)
 
 As you can see, there are fancy words here. Don't panick, there won't be much more :-)
 
@@ -217,7 +217,7 @@ By default, without styling, each tag is rendered as a rectangle which backgroun
 
 Here is a visual representation of that rectangle, called the "box model".
 
-![](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/1.INTRO/resources/images/css-block.png)
+![](resources/images/css-block.png)
 
 This image represents how you can play with `border`, `margin`, `padding` to style any HTML tag!
 
