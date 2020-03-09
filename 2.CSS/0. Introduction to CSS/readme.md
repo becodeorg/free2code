@@ -1,6 +1,6 @@
-# How to make your webpages look good, using CSS
+# CSS introduction
 
-In the previous lessons you have been focusing on writing content using HTML, because... That's what HTML is for! HTML was created to describe the content of a web page, like:
+In our previous journey, we have discovered the power of HTML. It was created to describe the content of a web page, like:
 
 ```html
 <h1>This is a heading</h1>
@@ -8,40 +8,38 @@ In the previous lessons you have been focusing on writing content using HTML, be
 <p>This is a paragraph.</p>
 ```
 
- Now, you probably noticed that what you did was accessible, but not really... visually appealing. At least not as much as many pages that you see when you surf on the internet.  That's because on top of their HTML, these pages are using another language, called CSS, which job is to make the html look visually better.
+But you might have noticed that there is no color at all, it just looks like a plain word document. Which is boring to look at.
+
+That's because on top of their HTML, these pages are using another language, called CSS, which job is to make the html look visually better.
+
+
 
 In other words, CSS allows us to turn this:
 
-![](./without-css.png)
+![](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/1.INTRO/resources/images/without-css.png)
+
+
 
 Into that:
 
-![](/Users/aplennevaux/GITHUB/becode-projects/free2code/2.CSS/0. Introduction to CSS/with-css.png)
+![](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/1.INTRO/resources/images/with-css.png)
 
-## CSS stands for Cascading Style Sheet
+## What is CSS?
 
-CSS is the acronym for: *Cascading Style Sheets*. CSS is an extension to basic HTML that allows you to style your web pages.
+- **CSS** Stands for **C**ascading **S**tyle **S**heets
+- CSS describes how HTML **Elements** are to be displayed on screen.
+- It can control the layout of multiple pages at once.
 
-Say you want the paragraph above to be written in the colour red instead of black. Here is a way to do it using css:
+In short, CSS is what makes our web pages look good and presentable.
+It's a must-have skill for any web developer out there.
 
-```html
-<p style="color:red">This is a paragraph.</p>
-```
 
-As you see, the css instructs the browser to use the color red to render the `p`tag.  Easy, isn't it ?
-And you can combine several properties. For example, let's make it red and bold:
-
-```html
-<p style="color:red;font-weight:bold">This is a paragraph.</p>
-```
-
-Easy again! As you can see, you can add up properties using a semicolon (the character `;`) to separate them so the browser does not get confused.
 
 ## The CSS Syntax
 
 Look at this schematic, which sums all how to write CSS in a way that the browser understands it.
 
-![](/Users/aplennevaux/GITHUB/becode-projects/free2code/2.CSS/0. Introduction to CSS/selector.gif)
+![](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/1.INTRO/resources/images/selector.gif)
 
 As you can see, there are fancy words here. Don't panick, there won't be much more :-)
 
@@ -54,56 +52,97 @@ Each declaration includes a CSS **property name** and a **value**, separated by 
 A CSS declaration always ends with a semicolon (`;`), and declaration blocks are surrounded by curly braces. Example:
 
 ```css
-p {
-  color: red;
-  text-align: center;
+h1 {
+  color: blue;
+  font-size:12px;
 }
 ```
 
-## Where to put your CSS ?
+## Getting started
 
-In the above examples, the CSS is written *into* the HTML code as part of an attribute called `style`. That way of adding css is called **inline CSS**. It works and can be handy sometimes, but it's really not recommended as you would quickly get a file with a lot of html and css mixed together, which makes changing the page really tedious. There are 2 other, better, ways.
+There are multiple  ways of implementing CSS in our web-pages.
+Here is a small list of the methods we could use.
 
-### 1. The <style> tag
+### 1. Inline CSS
 
-The second, better way to add CSS onto an HTML page is to use an html tag: `<style>`and add your css into it. The above example would then be rewritten like this.
-
-```html
-<style>
-p {
-   font-family: Verdana, Arial, Helvetica, sans-serif;
-   font-weight: bold;
-   color: #FF0000;
-}
-</style>
-```
-
-Note that, in that case, the CSS instructions have to be above the relevant HTML code, as the browser needs to know how to style the html before it reads the html.
+Firstly we can include CSS directly in our HTML elements.
+To accomplish this, we make use of the `style` attributes, now we provide properties to it.
 
 ```html
-<style>
-p {
- font-family: Verdana, Arial, Helvetica, sans-serif;
- font-weight: bold;
- color: #FF0000;
-}
-</style>
-<p>This is a really cool paragraph!</p>
+<h1 style="color: blue"> Hello world! </h1>
 ```
 
-There are many, many CSS properties. You don't have to study them or know them by heart. Usually, we tend to use often the same ones so through practice we remember them. And when we don't, we look at the documentation!
-
-### 2. A Seperate file, ending with .css
-
-In the above example we **embed the css code** directly into the page itself. This is fine for smaller projects or in situations where the styles you’re defining will only be used in a single page. But most websites have many pages;  it would be a hassle to have to copy and paste your CSS code into each page.
-
-Besides the fact that you will be cluttering up your pages with the same CSS code, you also find yourself having to edit each of these pages if you want to make a style change. 
-
-Fortunately, you can define/create your CSS styles in a separate file and then link it to the HTML page you want to apply the code to, using the `<link>` tag, which you need to put in the `<head>`tag.
+As you see, the css instructs the browser to use the color blue to render the `h1`tag. Easy, isn't it ? And you can combine several properties. For example, let's make it blue and bold:
 
 ```html
-<link href="myFirstStyleSheet.css" rel="stylesheet"  type="text/css">
+<h1 style="color:blue;font-weight:bold">Hello world!</h1>
 ```
+
+![](resources/images/output-inline-style.png)
+
+Easy again! As you can see, you can add up properties using a semicolon (the character `;`) to separate them so the browser does not get confused.
+
+We could add many more properties inside of this method.
+But we won't use this method since it can get pretty messy in our HTML file.
+
+### 2. Internal CSS
+
+Another way to include CSS is by using the `<style>` tag inside of our `head` section of our HTML page.
+
+```html
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS is awesome! - BeCode</title>
+
+    <style>
+        h1{
+            color:blue;
+        }
+    </style>
+</head>
+```
+
+We just found a solution to not mix our HTML with our CSS, but our styling is still inside of our HTML file.   
+Maybe, there is a better way to include our CSS..? Well, yes there!
+
+### 3. External CSS
+
+This is the best way and the only way that we will use throughout the course. The first 2 methods are considered a no go, but they are still a must to know.
+Like the name gives it away, we will have some **external** CSS file(s), which we will import inside the `<head>` of our HTML page.
+
+```html
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>The best way! - BeCode</title>
+
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    </head>
+```
+
+As you can see, we use a `<link>` tag this time to make a connection with our CSS file.
+This link tag will need a few attributes to work, the `rel=" stylesheet"` specifies the relationship between the HTML and CSS file, the browser knows now that we are trying to link a Stylesheet (CSS file).
+The `type=" text/CSS"` will tell the browser what kind of resource we are linking. It's not an obligation to use this, but we recommend using it to avoid any problems in the future.
+Last but not least, the `href="resources/css/style.css"` is our path that the link will use to find the document.   
+
+#### Here is an example of our folder structure:
+
+![](resources/images/linking02.png)
+
+Inside of our CSS file we have written the following:
+
+```css
+    h1{
+        color:blue;
+    }
+```
+
+This will give the same output as our result in example 1, the benefit of this is that our CSS is seperated from out HTML **and** we can import this CSS file in multiple pages at once!
+
+
 
 ## Working with colours
 
@@ -127,7 +166,7 @@ color: rgb(255, 0, 0);
 }
 ```
 
-This says "I want the maximum of Red (maximum is 255), no green (0), and no blue... Leading to a full bright red color.
+This says "I want the maximum of Red (maximum is 255), no green (0), and no blue (0)... Leading to a full bright red color.
 
 This is exactly the same as 
 
@@ -145,9 +184,10 @@ color: rgb(0, 182, 255);
 }
 ```
 
-#### Transparency !
+### Transparency !
 
 You can also use a fourth value, to set the "alpha", which means "transparency" (or "opacity" if you prefer). Its value goes from 0 (totally transparent, the tag would be invisible) to 1 (fully opaque). 
+Instead of `RGB` we use `RGBA` to add the transparent layer to our colour. 
 
 So let's say you want an orange square with 60% transparency, you would do this:
 
@@ -155,7 +195,7 @@ So let's say you want an orange square with 60% transparency, you would do this:
 div {
   width: 100px;
   height: 100px;
-  background-color: rgb(255, 221, 0,0.6);
+  background-color: rgba(255, 221, 0,0.6);
 }
 ```
 
@@ -169,33 +209,81 @@ The first 2 digits describe the value of Red, the next 2 the values of Green, an
 
 Just know that it exists and that you will be able to use it if you want. We will not really dig into that in this training.
 
+
+
 ### Playing with borders
 
 By default, without styling, each tag is rendered as a rectangle which background and borders are **transparent**. It does not have to stay that way!
 
 Here is a visual representation of that rectangle, called the "box model".
 
-![](/Users/aplennevaux/GITHUB/becode-projects/free2code/2.CSS/0. Introduction to CSS/css-block.png)
+![](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/1.INTRO/resources/images/css-block.png)
 
 This image represents how you can play with `border`, `margin`, `padding` to style any HTML tag!
 
-Check this out:
+Okay to explain this a little deeper, let's get our hands dirty!
+
+**Create an HTML file and copy these lines in our body:**
+
+```html
+<div class="box1">
+  <div class="box2">
+  </div>
+</div>
+<div class="box3">
+</div>
+```
+
+**Next create an CSS file and copy the following lines inside of this:**
 
 ```css
-p{
-    border-top:1px solid red;
-    border-right: 1px solid black;
-    border-bottom: 2px dotted green;
-    border-left: 2px dashed green;
-    padding:10px;
-    padding-right:12px;
-    background-color: yellow;
+.box1{
+  width:200px;
+  height:200px;
+  border-top:1px solid red;
+  border-right: 1px solid black;
+  border-bottom: 2px dotted green;
+  border-left: 2px dashed green;
+  padding:100px;
+  padding-right:50px;
+  background-color: yellow;
+  
+  /*--We will cover this later--*/
+ display:inline-block;
+ /*----------------------------*/
+}
+
+.box2{
+  width:200px;
+  height:200px;
+  background-color:red;
+  /*--We will cover this later--*/
+  display:inline-block;
+  /*----------------------------*/
+  
+}
+
+.box3{
+  width:100px;
+  height:100px;
+  background-color:green;
+  margin-left:200px;
+  /*--We will cover this later--*/
+  display:inline-block;
+  /*----------------------------*/
 }
 ```
+
+
 
 That sure won't look *exactly* pretty, but that's not the concern yet.
 
 As you can see, you can specify each border of the rectangle using 3 parameters: the **thickness** of the line (here, in pixels), the line **type** (`solid`,  `dashed`, `dotted`), and its **colour**.
+
+Now while you are at it, try to figure out the difference between `padding` and `margin`.
+Play with it's values, we will discuss this in group later on.
+
+
 
 ### Comments in CSS
 
@@ -226,10 +314,10 @@ a multi-line
 comment */
 
 p {
-  color: red;
+ color: red;
 }
 ```
 
-# Conclusion: let's practice!
+## Congratulations,
 
-All right that was a lot already. Let's do some exercises! 
+You just discovered the magic of CSS. Now let's put our knowledge to the test by doing a few exercises!
