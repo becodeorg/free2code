@@ -934,7 +934,7 @@ plate orange:nth-last-child(4)
 }
 
 .left-col {
-  width: calc(100% - 375px);
+  width: calc(100%);
   text-align: center;
   overflow-x: visible;
   position: fixed;
@@ -1338,4 +1338,9 @@ tag:after {
 
 .reset-progress:hover {
   background: rgba(255,255,255,.05);
+}
+
+.container-game{
+  display: flex;
+
 }

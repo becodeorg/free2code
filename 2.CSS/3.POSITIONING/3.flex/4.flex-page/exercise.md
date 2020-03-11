@@ -11,16 +11,22 @@ Does his name not ring a bell? Don't worry, You will get to know him during this
 
 Recreate the following structure in HTML:
 
-![html-example.png](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/3.POSITIONING/3.flex/3.flex-page/resources/images/html-example.png)
+
+
+![html-example.png](C:\Users\shoks\Documents\prison_project\free2code\2.CSS\3.POSITIONING\3.flex\4.flex-page\resources\images\html-example.png)
 
 ## Flex those containers!
 
 Great work! Now style this page into this:
 
-![endgoal.png](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/3.POSITIONING/3.flex/3.flex-page/resources/images/endgoal.png)
+![endgoal.png](C:\Users\shoks\Documents\prison_project\free2code\2.CSS\3.POSITIONING\3.flex\4.flex-page\resources\images\endgoal.png)
+
+
 
 Try to use flex-box as much as possible!
 
 **Note:** You will not find the correct font, try to use something that gets "close enough".
 
 **Tip**: always start with the content: so focus on the html first, without worrying to much about CSS. When your HTML is good, the move on to CSS. This way, you will only add classes when required by the CSS, which is a good practice.
+
+

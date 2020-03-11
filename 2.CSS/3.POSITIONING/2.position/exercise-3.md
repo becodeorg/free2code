@@ -51,4 +51,4 @@ Now re-create this styling as good as possible:
 
 *Don't forget to use display! (Sometimes even on parents...)*
 
-![squares.png](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/3.POSITIONING/2.position/resources/images/squares.png)
+![squares.png](C:\Users\shoks\Documents\prison_project\free2code\2.CSS\3.POSITIONING\2.position\resources\images\squares.png)
