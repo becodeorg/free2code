@@ -38,5 +38,3 @@ Please copy and paste this code inside your editor:
 ## Animated component:
 
 ![](./resources/06fotogalerij.gif)
-
-
