@@ -78,7 +78,7 @@ div{
     width: 100px;
     height: 100px;
     background: red;
-    transition: width 2s; /*You can also just write transition: width 2s ease-inout-*/
+    transition: width 2s; /*You can also just write transition: width 2s ease-in-out-*/
     transition-timing-function: ease-in-out;
 }
 ```
