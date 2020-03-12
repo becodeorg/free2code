@@ -1,19 +1,14 @@
 # CSS animation & Transitions
 
 
-
 ## Transitions
 
-
-
 ![coolbutton.gif](./resources/images/coolbutton.gif)
-
 
 
 CSS transitions allows you to change property values smoothly, over a given duration.
 For example if you hover over a button, the color changes instantly without adding a transition property.
 With the transition property and the correct values, we can get smooth transitions between widths, heights, colors, ...
-
 
 
 To create a transition effect, you must specify two things:
@@ -176,7 +171,6 @@ div {
 ## Conclusion
 
 I could tell you much more about transitions and animation, but that is not the point here! Let's dive into the documentation and get our hands dirty!
-
 
 
 
