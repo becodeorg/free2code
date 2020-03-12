@@ -270,6 +270,24 @@ As you can see, you can specify each border of the rectangle using 3 parameters:
 Now while you are at it, try to figure out the difference between `padding` and `margin`.
 Play with it's values, we will discuss this in group later on.
 
+### Borders can be used to turn rectangles into a square!
+
+As you learn CSS, you will see that CSS is full of hacks and tricks. One really useful one is that you can turn an image like this:
+
+![Chief Hopper](./resources/images/chiefhopper.jpg) 
+
+  into that:
+
+  ![Chief Hopper, rounded!](./resources/images/chiefhopper-rounded.jpg)
+
+  Here is the one property that makes it possible:
+
+```css
+    border-radius:50%;
+```
+
+You'll get a chance to experiment with it in the exercises....
+
 ## Comments in CSS
 
 Comments are used to explain the code, and may help when you edit the source code at a later date.  Comments are **ignored by browsers**.
