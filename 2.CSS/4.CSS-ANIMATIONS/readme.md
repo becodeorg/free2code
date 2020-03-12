@@ -1,31 +1,21 @@
 # CSS animation & Transitions
 
-# <<<<<<< HEAD
-
-> > > > > > > 2e3e0022fb7dc9d002669244c236b7ca0ca26c5b
-
 ## Transitions
 
 ![coolbutton.gif](./resources/images/coolbutton.gif)
 
-# <<<<<<< HEAD
+CSS transitions allows you to change property values smoothly, over a given duration.
+For example if you hover over a button, the color changes instantly without adding a transition property.
+With the transition property and the correct values, we can get smooth transitions between widths, heights, colors, ...
 
-> > > > > > > 2e3e0022fb7dc9d002669244c236b7ca0ca26c5b
-> > > > > > > CSS transitions allows you to change property values smoothly, over a given duration.
-> > > > > > > For example if you hover over a button, the color changes instantly without adding a transition property.
-> > > > > > > With the transition property and the correct values, we can get smooth transitions between widths, heights, colors, ...
-
-# <<<<<<< HEAD
-
-> > > > > > > 2e3e0022fb7dc9d002669244c236b7ca0ca26c5b
-> > > > > > > To create a transition effect, you must specify two things:
+To create a transition effect, you must specify two things:
 
 - the CSS property you want to add an effect to
 - the duration of the effect
 
 **Note:** If the duration part is not specified, the transition will have no effect, because the default value is 0.
 
-The following example shows a 100px \* 100px red `<div>` element. The `<div>` element has also specified a transition effect for the width property, with a duration of 2 seconds:
+The following example shows a 100px * 100px red `<div>` element. The `<div>` element has also specified a transition effect for the width property, with a duration of 2 seconds:
 
 ```css
 div {
@@ -60,12 +50,12 @@ It also makes your animations more natural..
 Here is an example of how we can add a transition timing to our transition:
 
 ```css
-div {
-  width: 100px;
-  height: 100px;
-  background: red;
-  transition: width 2s; /*You can also just write transition: width 2s ease-in-out-*/
-      transition-timing-function: ease-in-out;
+div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s; /*You can also just write transition: width 2s ease-in-out-*/
+    transition-timing-function: ease-in-out;
 }
 ```
 
@@ -88,12 +78,8 @@ The following example binds the "example" animation to the `<div>` element. The 
 ```css
 /* The animation code */
 @keyframes example {
-  from {
-    background-color: red;
-  }
-  to {
-    background-color: yellow;
-  }
+  from {background-color: red;}
+  to {background-color: yellow;}
 }
 
 /* The element to apply the animation to */
@@ -121,18 +107,10 @@ The following example will change the background-color of the `<div>` element wh
 ```css
 /* The animation code */
 @keyframes example {
-  0% {
-    background-color: red;
-  }
-  25% {
-    background-color: yellow;
-  }
-  50% {
-    background-color: blue;
-  }
-  100% {
-    background-color: green;
-  }
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
 }
 
 /* The element to apply the animation to */
@@ -145,7 +123,7 @@ div {
 }
 ```
 
-**Result:**
+**Result:**  
 
 ![](./resources/images/animation-02.gif)
 
