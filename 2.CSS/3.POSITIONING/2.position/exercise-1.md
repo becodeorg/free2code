@@ -2,7 +2,7 @@
 
 ### Before we start
 
-Before we start with these exercises, I want you to take a good look in the documentary. And search for the term `position`.
+Before we start with these exercises, I want you to take a good look in the documentation, and search for the term `position`.
 Take a good read to see what the difference are and what it exactly does.
 
 Please take your time with this! It is important to know the basics about this.

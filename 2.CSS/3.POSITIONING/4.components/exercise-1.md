@@ -21,9 +21,9 @@ The CSS has to be in a `<style>`tag, no inline CSS.
 ```html
 <html>
 <head>
-	<meta charset="utf-8" />
-	    
-	<style>
+    <meta charset="utf-8" />
+
+    <style>
 /* Put your styling here */
 </style>
 </head>
