@@ -11,9 +11,7 @@
 
 
 CSS transitions allows you to change property values smoothly, over a given duration.
-
 For example if you hover over a button, the color changes instantly without adding a transition property.
-
 With the transition property and the correct values, we can get smooth transitions between widths, heights, colors, ...
 
 
@@ -27,7 +25,7 @@ To create a transition effect, you must specify two things:
 
 
 
-The following example shows a 100px * 100px red <div> element. The <div> element has also specified a transition effect for the width property, with a duration of 2 seconds:
+The following example shows a 100px * 100px red `<div>` element. The `<div>` element has also specified a transition effect for the width property, with a duration of 2 seconds:
 
 
 
@@ -44,7 +42,7 @@ div {
 
 The transition effect will start when the specified CSS property (width) changes value.
 
-Now, let us specify a new value for the width property when a user mouses over the <div> element:
+Now, let us specify a new value for the width property when a user mouses over the `<div>` element:
 
 
 
@@ -103,7 +101,7 @@ When you specify CSS styles inside the `@keyframes` rule, the animation will gra
 
 To get an animation to work, you must bind the animation to an element.
 
-The following example binds the "example" animation to the <div> element. The animation will last for 4 seconds, and it will gradually change the background-color of the <div> element from "red" to "yellow":
+The following example binds the "example" animation to the `<div>` element. The animation will last for 4 seconds, and it will gradually change the background-color of the `<div>` element from "red" to "yellow":
 
 
 
@@ -144,7 +142,7 @@ It is also possible to use percent. By using percent, you can add as many style 
 
 
 
-The following example will change the background-color of the <div> element when the animation is 25% complete, 50% complete, and again when the animation is 100% complete:
+The following example will change the background-color of the `<div>` element when the animation is 25% complete, 50% complete, and again when the animation is 100% complete:
 
 
 
