@@ -1,13 +1,9 @@
 # Basic properties
 
-We know how to call our elements in css, we have used some basic properties, but there are more.
-In this section we will show you, a few more properties with a few small exercises.
+We know how to call our elements in css, we have used some basic properties, but there are way many more properties available to you, Picasso!
+In this section you will learn to use a few more interesting properties through short exercises.
 
-
-
-It is important to take your time with these exercises, try to understand what is happening. Why is this color changing? Why is the size different? etc..
-
-
+It is important to take your time with these exercises. Try to understand what is happening. Why is this color changing? Why is the size different? etc..
 
 ## Exercises
 
@@ -19,7 +15,7 @@ copy this code into your editor:
     <meta charset="utf-8" />
     <style>
 
-    /* *****Don't change this!!******* */
+    /* *****Don't change the following !!******* */
 
     body{
         background-color: rgb(255, 255, 255);
@@ -58,7 +54,7 @@ copy this code into your editor:
       border-radius: 10px;
       margin:0 15%;
     }
-    
+
     body:last-child{
         margin-bottom: 100px;
     }
@@ -123,22 +119,19 @@ copy this code into your editor:
     <div class="content">
         <p class="me">Give me a red color and align me to the center</p>
         <p>Give me a blue background</p>
-        
+
         <p class="margin-left">Give me a bigger margin to the left.</p>
-        
+
         <p class="font10">Give me a font size of 10px, <span>Give me a font size of 20px.</span></p>
-        
+
         <h3>Don't change me! But give the 'lorem' a line height of 10px,letter space of 4px</h3>
         <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus illo tempora, dolores iure rem quos neque harum omnis unde. Nam pariatur quidem nostrum nisi harum voluptatem tempore impedit fugiat minus?
         Esse quo debitis nam commodi architecto praesentium, ullam laborum quasi odit. Quis recusandae et magni possimus mollitia at. Distinctio, esse? Consectetur quam enim consequatur delectus quod in est repellendus a.
-        Ab repellendus corrupti, officiis commodi accusamus vel, quaerat nostrum magnam ad iusto adipisci minima ut omnis! Dolore, aperiam ipsa architecto culpa, libero velit recusandae voluptatum expedita minus, veniam fugiat molestiae.
-        Tempore architecto distinctio, omnis dolorem quaerat vitae deserunt atque consequatur provident autem saepe! Dolore quasi necessitatibus totam dignissimos ipsam iure qui, nesciunt facere nam eaque dolorem veniam aperiam amet dicta?
-        Porro dolore minus molestiae alias, provident, aliquid officia animi ipsa, nulla adipisci placeat laborum. Placeat pariatur ipsa culpa ducimus tenetur dolor aut eveniet magnam. Maxime modi nostrum culpa illo laudantium.
-        Sequi expedita quae laudantium dignissimos! Aliquid et odio fuga quasi blanditiis voluptatibus quae eaque tempora voluptate facere architecto, quidem minus dolorem cumque aut, ipsum, nostrum officia quo dolorum reprehenderit mollitia?
+
         Tempora, labore autem? Ipsum, exercitationem officiis velit iste quasi facilis id deleniti. Officiis temporibus est repellat numquam omnis quam quia non sint! Esse velit dolore impedit deleniti reiciendis unde hic.
         Commodi iure eius sunt minima quod repellendus sed magni explicabo architecto sit a temporibus, assumenda debitis accusantium omnis non soluta natus laboriosam. Optio ad assumenda sunt, dolores consequatur perspiciatis nihil.</p>
-        
-        
+
+
         <ul>
           <li>Give me a underline</li>
           <li>Remove my bulletpoint</li>
@@ -146,8 +139,8 @@ copy this code into your editor:
           <li>Give me a border of 2px, not solid but dotted.</li>
           <li>Give me a border of 4px to the right and solid.</li>
         </ul>
-        
-        
+
+
         <div class="image">
           Make this text, bold. Give it a color of white. Give it a big font size. And add the image in this project to the background.
           Give it a width and height of 200px.
@@ -159,10 +152,10 @@ copy this code into your editor:
         <a href='#'>Button</a>
 
 
-        <h3>Make a circle shape around the image. Tip: overflow. Give it a width and height of 150px. When we hover over it, the image scales. But the circle shouldn't get bigger. </h3>
+        <h3>Make a circle shape around the image. Tip: border-radius, and overflow. Give it a width and height of 150px. When we hover over it, the image scales. But the circle shouldn't get bigger. </h3>
 
         <div class="profile">
-            <img src="resources/images/chiefhopper.jpg" class="profile__image"></div>
+            <img src="resources/chiefhopper.jpg" class="profile__image"></div>
         </div>
 
 
@@ -175,18 +168,10 @@ copy this code into your editor:
         </ul>
 
     </div>
-  
-  
+
+
 
 
 </body>
 </html>
 ```
-
-
-
-Don't write classes for this exercise! Try to use the selectors we have seen so far!
-
-## Are you finished?
-
-Why not create your own compontents? You know HTML, and some basic CSS. Experiment!
