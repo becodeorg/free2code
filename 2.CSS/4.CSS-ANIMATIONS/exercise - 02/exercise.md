@@ -28,4 +28,4 @@ Please copy and paste this code inside your editor:
 
 ## Animated component:
 
-![](./01skyblue.gif)
+![](./resources/01skyblue.gif)

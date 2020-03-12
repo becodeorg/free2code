@@ -65,4 +65,4 @@ Please copy and paste this code inside your editor:
 
 ## Animated component:
 
-![](./07accordeon.gif)
+![](./resources/07accordeon.gif)

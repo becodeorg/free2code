@@ -27,4 +27,4 @@ Please copy and paste this code inside your editor:
 
 ## Animated component:
 
-![](./02animatie.gif)
+![](./resources/02animatie.gif)

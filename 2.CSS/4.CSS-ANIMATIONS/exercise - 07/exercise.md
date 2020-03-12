@@ -37,6 +37,6 @@ Please copy and paste this code inside your editor:
 
 ## Animated component:
 
-![](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/4.CSS-ANIMATIONS/exercise - 07/06 fotogalerij.gif)
+![](./resources/06fotogalerij.gif)
 
 

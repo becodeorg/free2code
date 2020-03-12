@@ -27,7 +27,7 @@ Please copy and paste this code inside your editor:
 
 ## Animated component:
 
-![](./05button.gif)
+![](./resources/05button.gif)
 
 ## Code for arrow
 

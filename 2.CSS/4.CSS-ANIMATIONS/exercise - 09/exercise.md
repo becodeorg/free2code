@@ -45,7 +45,7 @@ Please copy and paste this code inside your editor:
 
 
 
-![](./step-a-1.png)
+![](./resources/step-a-1.png)
 
 
 
@@ -53,14 +53,14 @@ Please copy and paste this code inside your editor:
 
 #### Step two:
 
-![](./step-a-2.gif)
+![](./resources/step-a-2.gif)
 
 
 
 
 #### Step three:
 
-![](./step-a-3.gif)
+![](./resources/step-a-3.gif)
 
 
 
@@ -68,7 +68,7 @@ Please copy and paste this code inside your editor:
 
 #### Step four:
 
-![](./step-a-4.gif)
+![](./resources/step-a-4.gif)
 
 
 
@@ -78,7 +78,7 @@ Please copy and paste this code inside your editor:
 
 #### Step one:
 
-![](./step-b-1.png)
+![](./resources/step-b-1.png)
 
 
 
@@ -86,7 +86,7 @@ Please copy and paste this code inside your editor:
 
 #### Step two:
 
-![](./step-b-2.gif)
+![](./resources/step-b-2.gif)
 
 
 
@@ -94,7 +94,7 @@ Please copy and paste this code inside your editor:
 
 #### Step three:
 
-![](./step-b-3.gif)
+![](./resources/step-b-3.gif)
 
 
 
@@ -102,7 +102,7 @@ Please copy and paste this code inside your editor:
 
 
 
-![](./08checkboxes.gif)
+![](./resources/08checkboxes.gif)
 
 
 
