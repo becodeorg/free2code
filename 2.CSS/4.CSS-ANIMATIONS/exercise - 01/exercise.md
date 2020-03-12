@@ -1,21 +1,5 @@
 # Learn CSS Animations
 
-## Before you start:
-
-### Self-learning
-
-This challenge introduces a new topic : CSS Animations. It will require the student to autotrain itself rapidly before doing the exercise. Let's see if the candidate's autolearning muscles are enough...
-
-- does the candidate read and understand the instructions carefully and thoroughly ?
-- what did the candidate do to autolearn ?
-- Did the candidate finished the challenge on time ? Then, take a good read in the animations documentation.
-
-### Html & CSS
-
-- html code is valid, semantic and well indented.
-- CSS code is valid, relevant and well indented.
-- The visual end result matches the challenge requirement
-
 ## The exercise
 
 In this exercise, you will build a complex animation, step by step.  
@@ -29,7 +13,6 @@ Of course, when done, remove the background image for a cleaner look.
 <div id="stage" style="background: transparent url(./images/css_animation_exercise_stage.png) 0 0 no-repeat;">
 ```
 
-- Create a standard index.html page
 - Create the stage: add a div with the id "stage", style it so that it appears exactly like this image, and in the horizontal middle of your index page.   
 
 ![](./resources/images/css_animation_exercise_stage.png)

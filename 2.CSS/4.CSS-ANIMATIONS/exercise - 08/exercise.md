@@ -8,6 +8,8 @@ Make an exact copy of the examples and write your own HTML and CSS!
 
 **You will need this text:** 
 
+```ascii
+
 ---
 
 Myths about Scrolling and Long Content Pages on the Desktop
@@ -41,6 +43,7 @@ People have the ability to handle vast amounts of information, when presented pr
 Accordions Are Not Always the Answer for Complex Content on Desktops
 
 ---
+```
 
 ## Before you start
 
