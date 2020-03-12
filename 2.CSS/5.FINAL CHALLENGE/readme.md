@@ -18,8 +18,6 @@ Remember:
 
 4. Debug (fix poblems and repeat from step 1).
 
-
-
 **Color codes & font family :**
 
 - yellow: rgb(242, 201, 76)
@@ -28,12 +26,8 @@ Remember:
 
 - font family: **Roboto**
 
-
-
 ![](resources/images/Banana_Foundation_Challenge.jpg)
 
 **Starting content in the Editor**
 
 nothing
-
-
