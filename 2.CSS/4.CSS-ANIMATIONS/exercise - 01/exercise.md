@@ -32,12 +32,12 @@ Of course, when done, remove the background image for a cleaner look.
 - Create a standard index.html page
 - Create the stage: add a div with the id "stage", style it so that it appears exactly like this image, and in the horizontal middle of your index page.   
 
-![](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/4.CSS-ANIMATIONS/exercise - 01/resources/images/css_animation_exercise_stage.png)
+![](./resources/images/css_animation_exercise_stage.png)
 
 - Add a div with an id "hero".
 - Style the `#hero` so it looks exactly like this: 
 
-![](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/4.CSS-ANIMATIONS/exercise - 01/resources/images/css_animation_exercise_square.png)
+![](./resources/images/css_animation_exercise_square.png)
 
 Now, construct the animation step by step.
 
@@ -45,7 +45,7 @@ Now, construct the animation step by step.
 
 Move the hero to the right, one time.  
 
-![](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/4.CSS-ANIMATIONS/exercise - 01/resources/images/css_animation_exercise_1.png)
+![](./resources/images/css_animation_exercise_1.png)
 
 ## Step 2
 
