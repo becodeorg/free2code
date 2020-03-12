@@ -100,3 +100,9 @@ Pseudo-classes begin with a colon followed by the name of the desired class. The
 - `:visited` – A link the user has visited before.
 - `:hover` – A link with the user’s mouse over it.
 - `:active` – A link that’s being pressed down by a mouse (or finger).
+
+
+
+That's about it for the CSS Selectors. You have enough information to do the exercises!  Don't hesitate to go back here if you cannot manage the exercises - you cannot remember all this. Practice will help you remember ;-)
+
+
