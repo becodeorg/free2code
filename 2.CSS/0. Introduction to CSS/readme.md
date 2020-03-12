@@ -321,6 +321,6 @@ p {
 }
 ```
 
-## Congratulations,
+## Congratulations!
 
 You just discovered the magic of CSS. Now let's put our knowledge to the test by doing a few exercises!

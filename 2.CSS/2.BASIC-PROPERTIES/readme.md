@@ -127,7 +127,7 @@ copy this code into your editor:
         <h3>Don't change me! But give the 'lorem' a line height of 10px,letter space of 4px</h3>
         <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus illo tempora, dolores iure rem quos neque harum omnis unde. Nam pariatur quidem nostrum nisi harum voluptatem tempore impedit fugiat minus?
         Esse quo debitis nam commodi architecto praesentium, ullam laborum quasi odit. Quis recusandae et magni possimus mollitia at. Distinctio, esse? Consectetur quam enim consequatur delectus quod in est repellendus a.
-       
+
         Tempora, labore autem? Ipsum, exercitationem officiis velit iste quasi facilis id deleniti. Officiis temporibus est repellat numquam omnis quam quia non sint! Esse velit dolore impedit deleniti reiciendis unde hic.
         Commodi iure eius sunt minima quod repellendus sed magni explicabo architecto sit a temporibus, assumenda debitis accusantium omnis non soluta natus laboriosam. Optio ad assumenda sunt, dolores consequatur perspiciatis nihil.</p>
 
@@ -175,5 +175,3 @@ copy this code into your editor:
 </body>
 </html>
 ```
-
-
