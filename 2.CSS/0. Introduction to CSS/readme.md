@@ -1,6 +1,6 @@
 # CSS introduction
 
-In our previous journey, we have discovered the power of HTML. It was created to describe the content of a web page, like:
+In our previous journey, we have discovered the power of HTML. As you've seen, HTML was created to describe the content of a web page, like:
 
 ```html
 <h1>This is a heading</h1>
@@ -12,13 +12,9 @@ But you might have noticed that there is no color at all, it just looks like a p
 
 That's because on top of their HTML, these pages are using another language, called CSS, which job is to make the html look visually better.
 
-
-
 In other words, CSS allows us to turn this:
 
 ![](resources/images/without-css.png)
-
-
 
 Into that:
 
@@ -33,8 +29,6 @@ Into that:
 In short, CSS is what makes our web pages look good and presentable.
 It's a must-have skill for any web developer out there.
 
-
-
 ## The CSS Syntax
 
 Look at this schematic, which sums all how to write CSS in a way that the browser understands it.
@@ -43,11 +37,11 @@ Look at this schematic, which sums all how to write CSS in a way that the browse
 
 As you can see, there are fancy words here. Don't panick, there won't be much more :-)
 
-"**selector**" indicates which element(s) of your HTML file should receive the instructions. It points to the HTML element you want to style.
+"**selector**" indicates which element(s) of your HTML file should receive the instructions. It points to the HTML element you want to style. In this example, all `<h1>` tags on the html page will receive the CSS properties assigned to the `h1`css selector. 
 
 The **declaration** block contains one or more declarations separated by semicolons.
 
-Each declaration includes a CSS **property name** and a **value**, separated by a colon (`:`).
+Each declaration includes a CSS **property name** and a **value**, separated by a colon (this character `:`).
 
 A CSS declaration always ends with a semicolon (`;`), and declaration blocks are surrounded by curly braces. Example:
 
@@ -60,13 +54,12 @@ h1 {
 
 ## Getting started
 
-There are multiple  ways of implementing CSS in our web-pages.
-Here is a small list of the methods we could use.
+There are three  ways of implementing CSS in our web-pages.
 
 ### 1. Inline CSS
 
 Firstly we can include CSS directly in our HTML elements.
-To accomplish this, we make use of the `style` attributes, now we provide properties to it.
+To accomplish this, we make use of the `style` attribute, and write CSS code inside its value (the part in between the quotes). Example :
 
 ```html
 <h1 style="color: blue"> Hello world! </h1>
@@ -82,10 +75,9 @@ As you see, the css instructs the browser to use the color blue to render the `h
 
 Easy again! As you can see, you can add up properties using a semicolon (the character `;`) to separate them so the browser does not get confused.
 
-We could add many more properties inside of this method.
-But we won't use this method since it can get pretty messy in our HTML file.
+We could add many more properties inside of this method but  it can get really messy in our HTML file so it's not really recommanded. The next two methods are much cleaner...
 
-### 2. Internal CSS
+### 2. The <style> block
 
 Another way to include CSS is by using the `<style>` tag inside of our `head` section of our HTML page.
 
@@ -105,11 +97,10 @@ Another way to include CSS is by using the `<style>` tag inside of our `head` se
 ```
 
 We just found a solution to not mix our HTML with our CSS, but our styling is still inside of our HTML file.   
-Maybe, there is a better way to include our CSS..? Well, yes there!
+Maybe, there is a better way to include our CSS..? Well, yes there is!
 
 ### 3. External CSS
 
-This is the best way and the only way that we will use throughout the course. The first 2 methods are considered a no go, but they are still a must to know.
 Like the name gives it away, we will have some **external** CSS file(s), which we will import inside the `<head>` of our HTML page.
 
 ```html
@@ -128,6 +119,8 @@ This link tag will need a few attributes to work, the `rel=" stylesheet"` specif
 The `type=" text/CSS"` will tell the browser what kind of resource we are linking. It's not an obligation to use this, but we recommend using it to avoid any problems in the future.
 Last but not least, the `href="resources/css/style.css"` is our path that the link will use to find the document.   
 
+Having an external CSS file is the most recommended way to do, because it "separates concerns" : the HTML file is for content, the CSS file is for decoration !
+
 #### Here is an example of our folder structure:
 
 ![](resources/images/linking02.png)
@@ -141,8 +134,6 @@ Inside of our CSS file we have written the following:
 ```
 
 This will give the same output as our result in example 1, the benefit of this is that our CSS is seperated from out HTML **and** we can import this CSS file in multiple pages at once!
-
-
 
 ## Working with colours
 
@@ -209,8 +200,6 @@ The first 2 digits describe the value of Red, the next 2 the values of Green, an
 
 Just know that it exists and that you will be able to use it if you want. We will not really dig into that in this training.
 
-
-
 ## Playing with borders
 
 By default, without styling, each tag is rendered as a rectangle which background and borders are **transparent**. It does not have to stay that way!
@@ -247,7 +236,7 @@ Okay to explain this a little deeper, let's get our hands dirty!
   padding:100px;
   padding-right:50px;
   background-color: yellow;
-  
+
   /*--We will cover this later--*/
  display:inline-block;
  /*----------------------------*/
@@ -260,7 +249,7 @@ Okay to explain this a little deeper, let's get our hands dirty!
   /*--We will cover this later--*/
   display:inline-block;
   /*----------------------------*/
-  
+
 }
 
 .box3{
@@ -274,16 +263,12 @@ Okay to explain this a little deeper, let's get our hands dirty!
 }
 ```
 
-
-
 That sure won't look *exactly* pretty, but that's not the concern yet.
 
 As you can see, you can specify each border of the rectangle using 3 parameters: the **thickness** of the line (here, in pixels), the line **type** (`solid`,  `dashed`, `dotted`), and its **colour**.
 
 Now while you are at it, try to figure out the difference between `padding` and `margin`.
 Play with it's values, we will discuss this in group later on.
-
-
 
 ## Comments in CSS
 
