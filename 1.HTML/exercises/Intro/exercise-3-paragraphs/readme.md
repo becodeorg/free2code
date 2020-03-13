@@ -1,4 +1,4 @@
-Exercise 3 - Paragraphs
+# Exercise 3 - Paragraphs
 
 Add 6 paragraph elements to the index.html file, one for each title tag. You can write something yourself or copy some placeholder text from here:
 

@@ -6,10 +6,10 @@ For this project, your task is to mark up a letter that needs to be hosted on a 
 
 Block/structural semantics:
 
-- You should structure the overall document with an appropriate structure including doctype, and <html>, <head> and <body> elements.
+- You should structure the overall document with an appropriate structure including doctype, and `<html>`, `<head>` and `<body>` elements.
 - The letter in general should be marked up with a structure of paragraphs and headings, with the exception of the below points. There is one top level heading (the "Re:" line) and three second level headings.
 - The semester start dates, study subjects and exotic dances should be marked up using an appropriate list type.
-- The two addresses should be put inside <address> elements. Each line of the address should sit on a new line, but not be in a new paragraph.
+- The two addresses should be put inside `<address>` elements. Each line of the address should sit on a new line, but not be in a new paragraph.
 
 
 
