@@ -13,13 +13,13 @@ Recreate the following structure in HTML:
 
 
 
-![html-example.png](C:\Users\shoks\Documents\prison_project\free2code\2.CSS\3.POSITIONING\3.flex\4.flex-page\resources\images\html-example.png)
+![html-example.png](resources\images\html-example.png)
 
 ## Flex those containers!
 
 Great work! Now style this page into this:
 
-![endgoal.png](C:\Users\shoks\Documents\prison_project\free2code\2.CSS\3.POSITIONING\3.flex\4.flex-page\resources\images\endgoal.png)
+![endgoal.png]resources\images\endgoal.png)
 
 
 

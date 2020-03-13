@@ -5,7 +5,7 @@ What are we going to make?
 
 A card that could be used on a application for a pizza delivery service!  🔥🍕⏲️⭐
 
-![pizzacard.png](/home/nick/Documents/BeCode/prison-project/free2code/2.CSS/3.POSITIONING/3.flex/4.flex-card/pizzacard.png)
+![pizzacard.png](./resources/images/pizzacard.png)
 
 Colors: 
 

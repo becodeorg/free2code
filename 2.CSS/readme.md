@@ -4,15 +4,11 @@
 
 0. Introduction to CSS
 
-   - Small series exercises 1-4 : exercises.md
-
 1. Selectors
    
-   - Small series exercises 1-2 : exercises.md
+   - Exercise: 01 - Style this page
    
-   - Exercise: 03 - Style this page 
-   
-   - Exercise: 04 - CSS Dinner
+   - Exercise: 02 - CSS Dinner
 
 2. Basic properties
    
@@ -60,24 +56,6 @@
    - Exercise: 07
 
 5. Animations 
-
-   - Exercise: 01
-   
-   - Exercise: 02
-   
-   - Exercise: 03
-   
-   - Exercise: 04
-   
-   - Exercise: 05
-   
-   - Exercise: 06
-   
-   - Exercise: 07
-   
-   - Exercise: 08
-   
-   - Exercise: 09
 
 6. Final challenge
    

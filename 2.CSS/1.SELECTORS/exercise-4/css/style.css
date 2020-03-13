@@ -948,7 +948,7 @@ plate orange:nth-last-child(4)
 
 .right-col {
   position: fixed;
-  width: 375px;
+  width: 100%;
   right: 0;
 /*  overflow: auto;*/
   top: 40px;
@@ -968,11 +968,11 @@ plate orange:nth-last-child(4)
   background: #1b1813;
   left: 500px;
   padding: 0;
-  width: 100%;
+  width: 350px;
 }
 
 .menu-open .level-menu {
-  left: 0;
+  left: 100px;
 }
 
 .levels {
@@ -1082,6 +1082,7 @@ plate orange:nth-last-child(4)
   height: 2px;
   background: rgba(255,255,255,1);
   transition: all .1s ease-out;
+  right:0px;
 }
 
 .level-menu-toggle:before {

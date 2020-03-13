@@ -14,8 +14,6 @@ Reproduce this interface as close as possible using html and CSS. You have to re
 
 The CSS has to be in a `<style>`tag, no inline CSS.
 
-The CSS has to be in a `<style>`tag, no inline CSS.
-
 **Content in the editor**
 
 ```html
