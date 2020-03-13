@@ -78,7 +78,3 @@
 	3. [Write It](./3.JS/03-Write-It)
 
 
-
-
-## Content Progress
-You can monitor the content creation process [on this Trello board](https://trello.com/b/meDCHSdl/free-2-code).
