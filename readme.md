@@ -5,7 +5,7 @@
 
 0. ### General
 
-	0. [Level 0 - Computer Literacy Quizz](./level0-quizz.md)
+	1 [Level 0 - Computer Literacy Quizz](./level0-quizz.md)
 	1. [General Intro to the course](./0.GENERAL/General-Introduction.md)
 	1. [History of the Internet and The First Browser](./0.GENERAL/Background.md)
 
@@ -16,58 +16,58 @@
 	1. [HTML - Semantics exercises](./1.HTML/exercises/Semantics)
 
 1. ### CSS
-
-	0. **CSS - Introduction to CSS**
-		0. [CSS - Introduction to CSS](./2.CSS/0.INTRODUCTION-TO-CSS/readme.md)
-		0. [CSS - Introduction to CSS exercises](./2.CSS/0.INTRODUCTION-TO-CSS/exercises.md)
 	
-	0.  **CSS - Selectors**
-		0. [CSS - Selectors Exercise series](./2.CSS/1.SELECTORS/exercises.md)
-		0. [CSS - Selectors Exercise 3](./2.CSS/1.SELECTORS/exercise-3/exercise.md)
-		0. [CSS - Selectors Exercise 4](./2.CSS/1.SELECTORS/exercise-4)
-
-	0.  **CSS - Basic-properties**
-		0. [CSS - Selectors Exercise series](./2.CSS/2.BASIC-PROPERTIES/readme.md)
-
-	0.  **CSS - Positioning**
-		0. [CSS - Positioning](./2.CSS/3.POSITIONING/readme.md)
-		
-		0. **CSS Display**
-			0. [CSS - Display exercise 1](./2.CSS/3.POSITIONING/1.display/exercise-01.md)
-			0. [CSS - Display exercise 2](./2.CSS/3.POSITIONING/1.display/exercise-02.md)
-
-		0. **CSS Position**
-			0. [CSS - Position exercise 1](./2.CSS/3.POSITIONING/2.position/exercise-1.md)
-			0. [CSS - Position exercise 2](./2.CSS/3.POSITIONING/2.position/exercise-2.md)
-
-		0. **CSS Flex**
-			0. [CSS - Flex basics exercise](./2.CSS/3.POSITIONING/3.flex/1.flex-basics/exercise.md)
-			0. [CSS - Flex box froggy](./2.CSS/3.POSITIONING/3.flex/2.flexboxfroggy)
-			0. [CSS - Flex card](./2.CSS/3.POSITIONING/3.flex/3.flex-card/exercise.md)
-		
-		0. **CCS Components**
-			0. [CSS - Components exercise 1](./2.CSS/3.POSITIONING/4.components/exercise-1.md)
-			0. [CSS - Components exercise 2](./2.CSS/3.POSITIONING/4.components/exercise-2.md)
-			0. [CSS - Components exercise 3](./2.CSS/3.POSITIONING/4.components/exercise-3.md)
-			0. [CSS - Components exercise 4](./2.CSS/3.POSITIONING/4.components/exercise-4.md)
-			0. [CSS - Components exercise 5](./2.CSS/3.POSITIONING/4.components/exercise-5.md)
-			0. [CSS - Components exercise 6](./2.CSS/3.POSITIONING/4.components/exercise-6.md)
-			0. [CSS - Components exercise 7](./2.CSS/3.POSITIONING/4.components/exercise-7.md)
-
-	0. **CSS - CSS animation**
-		0. [CSS - CSS animation](./2.CSS/4.CSS-ANIMATIONS/readme.md)
-		0. [CSS - CSS animation exercise 1](./2.CSS/4.CSS-ANIMATIONS/exercise-01/exercise.md)
-		0. [CSS - CSS animation exercise 2](./2.CSS/4.CSS-ANIMATIONS/exercise-02/exercise.md)
-		0. [CSS - CSS animation exercise 3](./2.CSS/4.CSS-ANIMATIONS/exercise-03/exercise.md)
-		0. [CSS - CSS animation exercise 4](./2.CSS/4.CSS-ANIMATIONS/exercise-04/exercise.md)
-		0. [CSS - CSS animation exercise 5](./2.CSS/4.CSS-ANIMATIONS/exercise-05/exercise.md)
-		0. [CSS - CSS animation exercise 6](./2.CSS/4.CSS-ANIMATIONS/exercise-06/exercise.md)
-		0. [CSS - CSS animation exercise 7](./2.CSS/4.CSS-ANIMATIONS/exercise-07/exercise.md)
-		0. [CSS - CSS animation exercise 8](./2.CSS/4.CSS-ANIMATIONS/exercise-08/exercise.md)
-		0. [CSS - CSS animation exercise 9](./2.CSS/4.CSS-ANIMATIONS/exercise-09/exercise.md)
-	
-	0. **CSS - Final challenge**
-		0. [CSS - Final Challenge](./2.CSS/5.FINAL-CHALLENGE/readme.md)
+	#### Introduction
+	1. [CSS - Introduction to CSS](./2.CSS/0.INTRODUCTION-TO-CSS/readme.md)
+	1. [CSS - Introduction to CSS exercises](./2.CSS/0.INTRODUCTION-TO-CSS/exercises.md)
+	----
+	#### Selectors
+	1. [CSS - Selectors Exercise series](./2.CSS/1.SELECTORS/exercises.md)
+	1. [CSS - Selectors Exercise 3](./2.CSS/1.SELECTORS/exercise-3/exercise.md)
+	1. [CSS - Selectors Exercise 4](./2.CSS/1.SELECTORS/exercise-4)
+	----
+	#### Basic properties
+	1. [CSS - Basic properties exercise](./2.CSS/2.BASIC-PROPERTIES/readme.md)
+	----
+	#### Positioning
+	1. [CSS - Positioning](./2.CSS/3.POSITIONING/readme.md)
+	----
+	#### Display
+	1. [CSS - Display exercise 1](./2.CSS/3.POSITIONING/1.display/exercise-01.md)
+	1. [CSS - Display exercise 2](./2.CSS/3.POSITIONING/1.display/exercise-02.md)
+	----
+	#### Position
+	1. [CSS - Position exercise 1](./2.CSS/3.POSITIONING/2.position/exercise-1.md)
+	1. [CSS - Position exercise 2](./2.CSS/3.POSITIONING/2.position/exercise-2.md)
+	----
+	#### Flex box
+	1. [CSS - Flex basics exercise](./2.CSS/3.POSITIONING/3.flex/1.flex-basics/exercise.md)
+	1. [CSS - Flex box froggy](./2.CSS/3.POSITIONING/3.flex/2.flexboxfroggy)
+	1. [CSS - Flex card](./2.CSS/3.POSITIONING/3.flex/3.flex-card/exercise.md)
+	----
+	#### Components
+	1. [CSS - Components exercise 1](./2.CSS/3.POSITIONING/4.components/exercise-1.md)
+	1. [CSS - Components exercise 2](./2.CSS/3.POSITIONING/4.components/exercise-2.md)
+	1. [CSS - Components exercise 3](./2.CSS/3.POSITIONING/4.components/exercise-3.md)
+	1. [CSS - Components exercise 4](./2.CSS/3.POSITIONING/4.components/exercise-4.md)
+	1. [CSS - Components exercise 5](./2.CSS/3.POSITIONING/4.components/exercise-5.md)
+	1. [CSS - Components exercise 6](./2.CSS/3.POSITIONING/4.components/exercise-6.md)
+	1. [CSS - Components exercise 7](./2.CSS/3.POSITIONING/4.components/exercise-7.md)
+	----
+	#### CSS Animation
+	1. [CSS - CSS animation](./2.CSS/4.CSS-ANIMATIONS/readme.md)
+	1. [CSS - CSS animation exercise 1](./2.CSS/4.CSS-ANIMATIONS/exercise-01/exercise.md)
+	1. [CSS - CSS animation exercise 2](./2.CSS/4.CSS-ANIMATIONS/exercise-02/exercise.md)
+	1. [CSS - CSS animation exercise 3](./2.CSS/4.CSS-ANIMATIONS/exercise-03/exercise.md)
+	1. [CSS - CSS animation exercise 4](./2.CSS/4.CSS-ANIMATIONS/exercise-04/exercise.md)
+	1. [CSS - CSS animation exercise 5](./2.CSS/4.CSS-ANIMATIONS/exercise-05/exercise.md)
+	1. [CSS - CSS animation exercise 6](./2.CSS/4.CSS-ANIMATIONS/exercise-06/exercise.md)
+	1. [CSS - CSS animation exercise 7](./2.CSS/4.CSS-ANIMATIONS/exercise-07/exercise.md)
+	1. [CSS - CSS animation exercise 8](./2.CSS/4.CSS-ANIMATIONS/exercise-08/exercise.md)
+	1. [CSS - CSS animation exercise 9](./2.CSS/4.CSS-ANIMATIONS/exercise-09/exercise.md)
+	----
+	#### Final Challenge
+	1. [CSS - Final Challenge](./2.CSS/5.FINAL-CHALLENGE/readme.md)
 		
 
 2. Logical Thinking games (Blockly)
