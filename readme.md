@@ -2,12 +2,13 @@
 
 ## Index
 
-0. ### Prerequisite quizz
+1. ### Prerequisite quizz
 	1 [Level 0 - Computer Literacy Quizz](./level0-quizz.md)
+
+1. [General Intro to the course](./0.GENERAL/General-Introduction.md)
 
 1. ### General
 
-	1. [General Intro to the course](./0.GENERAL/General-Introduction.md)
 	1. [History of the Internet and The First Browser](./0.GENERAL/Background.md)
 
 1. ### HTML
@@ -71,9 +72,11 @@
 	1. [CSS - Final Challenge](./2.CSS/5.FINAL-CHALLENGE/readme.md)
 		
 
-2. Logical Thinking games (Blockly)
+1. Logical Thinking games (Blockly)
 	1. https://blockly.games ([offline](https://github.com/google/blockly-games/wiki/Offline) version)
-1. JavaScript
+	
+	
+1. JavaScript (not required - if possible to integrate as such)
 	1. [Read It](./3.JS/01-Read-It)
 	2. [Fix It](./3.JS/02-Fix-It)
 	3. [Write It](./3.JS/03-Write-It)
