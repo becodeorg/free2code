@@ -2,10 +2,11 @@
 
 ## Index
 
-
-0. ### General
-
+0. ### Prerequisite quizz
 	1 [Level 0 - Computer Literacy Quizz](./level0-quizz.md)
+
+1. ### General
+
 	1. [General Intro to the course](./0.GENERAL/General-Introduction.md)
 	1. [History of the Internet and The First Browser](./0.GENERAL/Background.md)
 
