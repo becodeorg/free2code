@@ -2,10 +2,9 @@
 
 ## Index
 
-1. ### Prerequisite quizz
-	1 [Level 0 - Computer Literacy Quizz](./level0-quizz.md)
+1. ### Prerequisite quizz (Printed Paper)
 
-1. [General Intro to the course](./0.GENERAL/General-Introduction.md)
+1. ### [General Intro to the course](./0.GENERAL/General-Introduction.md)
 
 1. ### General
 
