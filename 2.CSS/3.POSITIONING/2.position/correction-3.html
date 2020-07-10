@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <style>
+            body {
+                height: 3600px;
+                padding: 0;
+                margin: 0;
+                font-family: sans-serif;
+            }
+            .parent {
+                width: 400px;
+                height: 400px;
+                background-color: #eeee;
+                border: 4px solid grey;
+                margin: auto;
+                margin-top: 200px;
+            }
+            .tl,
+            .tr,
+            .bl,
+            .br {
+                font-size: 10px;
+                line-height: 150px;
+                text-align: center;
+                width: 150px;
+                height: 150px;
+                background-color: #ff0623;
+            }
+            .tr {
+                position: relative;
+                bottom: 150px;
+                left: 250px;
+            }
+			
+            .bl {
+                position: relative;
+                bottom: 50px;
+            }
+            .br {
+                position: relative;
+                bottom: 200px;
+                left: 250px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="tl">top left</div>
+            <div class="tr">top right</div>
+            <div class="bl">bottom left</div>
+            <div class="br">bottom right</div>
+        </div>
+    </body>
+</html>
