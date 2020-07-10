@@ -1,0 +1,275 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+
+    /* *****Don't change this!!******* */
+
+    body{
+        background-color: rgb(255, 255, 255);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin:0;
+
+    }
+    .box{    
+      border-radius:10px;
+      background-image: linear-gradient(to right bottom,#FF8803, #E6316E);
+
+
+      height:100px;
+      width:100px;
+      margin:10px;
+
+      line-height:100px;
+      font-size:50px;
+      transition: all .4s ease-in-out;
+    }
+
+    .box:hover{
+        height:110px;
+        width:115px;
+    }
+
+    .container{
+      text-align:center;
+      background-image: linear-gradient(to right,#001628, #302f57);
+      color:white;
+      height: 100%;
+      margin-bottom:200px;
+      align-items: center;
+      padding:0 50px;
+      box-shadow: inset 2px 5px 20px #000000;
+      border-radius: 10px;
+      margin:0 15%;
+    }
+    
+    body:last-child{
+        margin-bottom: 100px;
+    }
+
+    h2{
+      font-size:30px;
+      margin:150px 15% 40px;
+    }
+
+    header{
+        height: 350px;
+        background-image: linear-gradient(to right bottom,#FF8803, #E6316E);
+    }
+
+    .header__container{
+        height:300px;  
+        display: flex;
+        align-items: center;
+        color:white;
+        background-color:#001628;
+        border-bottom-right-radius: 200px;
+    }
+
+    header p{
+        line-height: 50px;
+        margin: auto 15%;
+        color: white;
+        display: inline;
+        padding-bottom: 5px;
+        border-bottom: solid 1px white;
+    }
+
+    h1{
+        margin:0 15%;
+        font-size: 50px;    
+    }
+
+/*********************************************************/
+/****************END OF THE NO TOUCHY ZONE****************/
+/*********************************************************/
+
+/*Is there something that needs display:flex to make flex work?*/
+
+/****************Exercise 1****************/
+.container--1{
+    display: flex;
+    justify-content: center;
+	height: max-content;
+}
+
+/****************Exercise 2****************/
+.container--2{
+    display: flex;
+    justify-content: space-between;
+	height: max-content;
+}
+
+/****************Exercise 3****************/
+.container--3{
+    display: flex;
+    justify-content: space-evenly;
+    height: max-content;
+}
+/****************Exercise 4****************/
+.container--4{
+    display: flex;
+    justify-content: flex-start;
+    height: max-content;
+}
+
+/****************Exercise 5****************/
+.container--5{
+    display: flex;
+    justify-content: flex-end;
+    height: max-content;
+}
+
+/****************Exercise 6****************/
+.container--6{
+    display: flex;
+    justify-content: space-evenly;
+	height:50%;
+}
+.container--6 :nth-child(1){
+    align-self: center;
+}
+.container--6 :nth-child(2){
+    align-self: flex-end;
+}
+.container--6 :nth-child(3){
+    align-self: flex-start;
+}
+
+/****************Exercise 7****************/
+.container--7{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    height: max-content;
+}
+.container--7 :nth-child(1){
+    order: 6;
+}
+.container--7 :nth-child(2){
+    order: 7;
+}
+.container--7 :nth-child(3){
+    order: 3;
+}
+.container--7 :nth-child(4){
+    order: 4;
+}
+.container--7 :nth-child(5){
+    order: 8;
+}
+.container--7 :nth-child(6){
+    order: 1;
+}
+.container--7 :nth-child(7){
+    order: 5;
+}
+.container--7 :nth-child(8){
+    order: 2;
+}
+
+/****************Exercise 8****************/
+.container--8{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: flex-end;
+    height: max-content;
+}
+
+
+</style>
+</head>
+<body>
+<!--DO NOT CHANGE THE HTML OR CLASS NAMES ONLY WRITE IN CSS-->
+<header>
+    <div class="header__container">
+        <h1>Learning to flex</h1>
+    </div>
+    <p>It's just a little different than this kind of flex 💪  -- Please make an exact copy of the example image!</p>
+</header>
+
+
+    <!--Start first-->
+  <h2>1. Center the divs</h2>
+  <div class="container container--1">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+  <!--Start second-->
+  <h2>2. There must be space between</h2>
+  <div class="container container--2">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+  <!--Start third-->
+  <h2>3. Spaces should be about the same.</h2>
+  <div class="container container--3">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+  <!--Start fourth-->
+  <h2>4. Boxes start from the start</h2>
+  <div class="container container--4">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+  <!--Start fifth-->
+  <h2>5. Boxes start from the end</h2>
+  <div class="container container--5">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+  <!--Start sixth-->
+  <h2>6. Boxes should be spread around in height</h2>
+  <div class="container container--6">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+  <!--Start seventh-->
+  <h2>7. make the order random</h2>
+  <div class="container container--7">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    <div class="box">7</div>
+    <div class="box">8</div>
+  </div>
+
+  <!--Start eigth-->
+  <h2>8. Reverse the order.</h2>
+  <div class="container container--8">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    <div class="box">7</div>
+    <div class="box">8</div>
+    <div class="box">9</div>
+    <div class="box">10</div>
+    <div class="box">11</div>
+    <div class="box">12</div>
+    <div class="box">13</div>
+    <div class="box">14</div>
+    <div class="box">15</div>
+    <div class="box">16</div>
+  </div> 
+</body>
+</html>
+
