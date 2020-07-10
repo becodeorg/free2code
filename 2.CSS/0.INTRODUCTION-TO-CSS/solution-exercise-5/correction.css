@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  margin: 50px;
+  width: 580px;
+}
+
+
+h2 {
+  /* text-decoration: underline solid #2A99FB 6px; */
+  border-bottom: 5px solid #2A99FB;
+  display: inline-block;
+  text-transform: uppercase;
+  margin:0;
+}
+
+p {
+  border-top: 1px solid lightgray;
+  text-align: justify;
+  font-weight: 600;
+
+  margin:0;
+  padding-top: 20px;
+}

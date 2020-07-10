@@ -1,0 +1,16 @@
+body {
+  padding: 30px;
+  background-color: rgb(220, 220, 220);
+}
+
+p{
+  font-size: 16px;
+  line-height: 120%;
+  color: rgb(25, 25, 25);
+}
+
+.introduction {
+  font-size: 140%;
+  line-height: 200%;
+  font-style: italic;
+}
