@@ -7,23 +7,24 @@
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 	/*Optional*/
-	margin: 200px 10%;
+	margin: 200px 0;
 }
 
 .advert__card{
 	margin: 0 25px;
-	width: 180px;
+	width: 200px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 .advert__imgHolder{
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 10px;
 }
 
 .advert__img{
@@ -32,8 +33,8 @@
 }
 
 .bigger{
-	max-width: 150%;
-	max-height: 150%;
+	max-width: 135%;
+	max-height: 135%;
 }
 
 .advert__desc h3{
@@ -49,5 +50,5 @@
 strong{
 	font-weight: normal;
 	color: rgb(107, 107, 107);
-	font-size: 16px;
+	font-size: 15px;
 }
