@@ -1,0 +1,129 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<style>
+	/* Put your styling here */
+	body {
+		display:flex;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		margin-top: 50px;
+		justify-content: center;
+		box-sizing: border-box;
+	}
+
+	.quote{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	blockquote::before{
+		quotes: "“" "”" "‘" "’";
+		content: open-quote;
+		color:#b3d5bc;
+		font-size: 200px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-weight: bold;
+		margin-right: 80px;
+		margin-left: -100px;
+	}
+
+	blockquote{
+		display: flex;
+		align-items: center;
+		font-size: 35px;
+		max-width: 840px;
+		text-align: center;
+		font-style: italic;
+		margin-bottom: -20px;
+		margin-right: 80px;
+	}
+
+	.tag{
+		color:#b3d5bc;
+		font-size: 35px;
+		font-style: italic;
+		font-weight: lighter;
+	}
+
+	.tag__quote{
+		font-size: 35px;
+		font-style: italic;	
+		font-weight: lighter;
+	}
+
+	.author{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.profile-pic{
+		height: 120%;
+		align-self: flex-start;
+		margin-right: 10px;
+	}
+
+	.img-container{
+		width: 80px;
+		height: 80px;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.profile-info{
+		color: #A0A0A0;
+		margin-left: 30px;
+	}
+
+	.name:before{
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		content: "---";
+		margin-left: -10px;
+		margin-right:2px ;
+		color: #A0A0A0;
+		font-weight: 100;
+	}
+
+	.who,.name{
+		margin:0;
+		font-size: 13px;
+	}
+
+	.name{
+		font-weight: bold;
+	}
+
+	.who{
+		margin-left:2px ;
+		font-style: italic;
+	}
+	
+  </style>
+</head>
+<body>
+  <!-- put your content here -->
+<section class="quote">
+	<blockquote>
+		From now on, I think I'm going to strive to build all my apps as fully static sites.
+	</blockquote>
+	<h2 class="tag__quote">
+		<span class="tag">@surge_sh </span>
+		is my bff.
+	</h2>
+	<div class="author">
+		<div class="img-container">
+			<img class="profile-pic" src="./resources/images/profilepic.jpg">
+		</div>
+		
+		<div class="profile-info">
+			<p class="name">Henrik Joreteg</p>
+			<p class="who">Author of Human JavaScript</p>
+		</div>
+	</div>
+</section>
+</body>
+</html>
