@@ -1,0 +1,74 @@
+<html>
+     <head>
+     <meta charset="utf-8" />
+         <style>
+         /* Put your styling here */
+			body{
+			 	margin:0;
+				font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+				font-weight: bold;
+				color: white;
+			 }
+
+			 nav{
+				background-color: #67808d;
+				display: flex;
+				justify-content: flex-end;
+			 }
+
+			ul{
+				display: flex;
+				justify-content: flex-end;
+				list-style: none;
+				margin: 0 200px;
+			}
+
+			li{
+				border-left: white solid 2px;
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			a{
+				text-decoration: none;
+				color: white;
+				text-align: center;
+				width: 150px;
+				padding:20px;
+			}
+
+			label{
+				width: 25%;
+				margin: 0px 20px;
+			}
+
+			input{
+				padding: 5px 10px;
+				margin: 0px;
+				border: none;
+				width: 100px;
+				transition: ease-in-out 0.5s;
+			}
+
+			input:hover{
+				width: 400px;
+			}
+         </style>
+ </head>
+<body>
+
+<!-- put your content here -->
+<nav>
+	<ul>
+		<li><a href="default.asp">Home</a></li>
+		<li><a href="news.asp">News</a></li>
+		<li><a href="contact.asp">Contact</a></li>
+		<li><label for="search">Search</label><input type="text"></li>
+	</ul>
+</nav>
+	
+</body>
+
+</html>
