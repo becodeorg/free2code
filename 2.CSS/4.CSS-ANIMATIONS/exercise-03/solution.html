@@ -1,0 +1,50 @@
+<html>
+     <head>
+     <meta charset="utf-8" />
+         <style>
+         /* Put your styling here */
+
+		 .container{
+			 margin-top: 200px;
+			 display: flex;
+			 justify-content: center;
+		 }
+		 .playfield{
+			 width: 50%;
+			 border-top: solid 1px;
+		 }
+		 .square{
+			 background-color: #ca003a;
+			 height: 100px;
+			 width: 100px;
+			 position: relative;
+  			animation: move ease-in-out 4.1s infinite;
+		 }
+
+		 @keyframes move {
+			0%,
+			100% {
+				left: 0;
+			}
+
+			50% {
+				left: 75%;
+			}
+		}
+         </style>
+ </head>
+<body>
+
+<!-- put your content here -->
+
+
+
+<div class="container">
+	<div class="playfield">
+		<div class="square"></div>
+	</div>
+</div>
+
+</body>
+
+</html>
