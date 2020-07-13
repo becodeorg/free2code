@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(to bottom right, #66b171, #4da3c7);
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    box-shadow: 10px 20px 40px 10px rgba(87, 87, 87,0.4);
+}
+.img img{
+    height:210px;
+    width: 300px;
+}
+.infos{
+    width: 260px;
+    height: 150px;
+    background-color: white;
+    padding: 30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 20px;
+
+}
+.headL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 135px;
+}
+.headL h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.headL img{
+    margin: auto;
+    height: 20px;
+}
+.headR{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 110px;
+}
+.headR button{
+    height: 15px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 9px;
+    color:white;
+}
+.content{
+    margin-top:15px;
+}
+.content p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+   
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+    width: 240px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+.icon img{
+    margin:auto;
+    margin-right: 5px;
+    height: 20px;
+}
+.icon h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.price{
+    width: 75px;
+    background: linear-gradient(to top, #4da3c7,#66b171);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
