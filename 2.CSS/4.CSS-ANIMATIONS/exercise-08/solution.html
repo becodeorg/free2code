@@ -1,0 +1,87 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<style>
+		/* Put your styling here */
+		body{
+			margin: 10px;
+			box-sizing: border-box;
+			background-color:#effff8;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		}
+
+		h1{
+			color:#086a90;
+			font-size: 18px;
+		}
+
+		input{
+			display: none;
+		}
+
+		label{
+			color:#effff8;
+			background-color: #086a90;
+			padding: 10px;
+			font-weight: bold;
+			display: block;
+		}
+
+
+		article{
+			height: 0px;
+			overflow: hidden;
+			transition: .4s ease-in-out;
+		}
+
+		.accordion input:checked~ article{
+			height: 240px;
+
+		}
+
+		.accordion{
+			margin-bottom: 20px;
+		}
+
+		a{
+			font-size: 15px;
+		}
+
+	</style>
+ </head>
+<body>
+
+<!-- put your content here -->
+<h1>Myths about Scrolling and Long Content Pages on the Desktop</h1>
+<div class="accordion">
+	<div class="ac-holder">
+		<input id="ac-1" name="accordion" type="radio">
+		<label for="ac-1">Myth #1: Users don’t scroll long pages</label>
+		<article class="ac-small">
+			<p>Users do scroll when the content is relevant, organized properly, and formatted for ease of scanning. In fact, people prefer scrolling the page for content over pagination when the topics within that page answer the right questions. The standard scroll wheel on a mouse, arrow keys, and track pads have made scrolling much easier than acquiring click targets.</p>
+		</article>
+	</div>
+	
+	<div class="ac-holder">
+		<input id="ac-2" name="accordion" type="radio">
+		<label for="ac-2">Myth #2: Customers don’t read information at the bottom of the page</label>
+		<article class="ac-small">
+			<p>Our eyetracking research show that while users spend 80% of their attention on information above the page fold, they allocate 20% of it to content below the fold. Reluctance to scroll is a behavior of the past. While you should still be mindful of people’s limited attention span on websites and prioritize content wisely, you shouldn’t fear long formats. People will see the bottom if you give them good reason to go there.
+			</p>
+		</article>
+	</div>
+
+	<div class="ac-holder">
+		<input id="ac-3" name="accordion" type="radio">
+		<label for="ac-3">Myth #3: People avoid pages with a lot of content</label>
+		<article class="ac-small">
+			<p>People have the ability to handle vast amounts of information, when presented properly. In our Writing for the Web courses, we emphasize the requirement for writing well, and more importantly, writing for web-based reading. Reading and scanning patterns are different between web-based and print-based content. While online users typically scan for information, it does not mean they want less information. Websites should not be information light. The same information needs to be written, structured, and presented differently.</p>
+		</article>
+	</div>
+</div>
+<a href="#">Accordions Are Not Always the Answer for Complex Content on Desktops</a>
+
+
+</body>
+
+</html>
