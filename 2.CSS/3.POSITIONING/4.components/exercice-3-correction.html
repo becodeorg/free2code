@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <style>
+
+      body{
+        margin: 0;
+      }
+
+      nav {
+        background-color: #E5E5E5;
+        padding: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+          Geneva, Verdana, sans-serif;
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+      }
+      ul {
+        list-style: none;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+        margin: 0 auto;
+        padding-left: 0;
+        width: max-content;
+      }
+      .pagination {
+        padding: 10px 35px;
+        border-radius: 7px;
+        color: hsl(0, 0%, 96%);
+        margin-left: 5px;
+      }
+      .pagination_grey {
+        background-color: hsl(0, 0%, 21%);
+      }
+      .pagination_current {
+        background-color: hsl(204, 86%, 53%);
+      }
+      .pagination_transparent {
+        color: hsl(0, 0%, 21%);
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="pagination pagination_transparent">1</li>
+        <li class="pagination pagination_grey">2</li>
+        <li class="pagination pagination_grey">3</li>
+        <li class="pagination pagination_grey">4</li>
+        <li class="pagination pagination_transparent">...</li>
+        <li class="pagination pagination_grey">68</li>
+        <li class="pagination pagination_current">69</li>
+        <li class="pagination pagination_grey">70</li>
+        <li class="pagination pagination_grey">&rarr;</li>
+      </ul>
+    </nav>
+  </body>
+</html>
