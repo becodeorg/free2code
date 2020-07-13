@@ -1,0 +1,79 @@
+<html>
+     <head>
+     <meta charset="utf-8" />
+         <style>
+         /* Put your styling here */
+
+		 body{
+			 margin:0;
+			 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			 font-size:25px;
+			 
+		 }
+
+		 .navigation{
+			 margin-top: 200px;
+			background-color: #8dd3e9;
+			height: 500px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		 }
+
+		 a{
+			 background-color: #8dd3e9;
+			 color:white;
+			 text-decoration: none;
+			 padding:20px 50px;
+			 border: 2px solid white;
+			 position: relative;
+			 overflow: hidden;
+		 }
+
+		 a::after{
+			position: absolute;
+			content:'\2192';
+			font-size: 40px;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			font-weight: bold;
+			top:50%;
+			right:-15%;
+			transform: translateY(-50%);
+			animation: arrowOut .3s linear;
+		 }
+
+		 a:hover{
+			background-color: #69c2dd;
+		 }
+
+		 a:hover:after{
+			 right: 10px;
+			 animation: arrowIn .2s ease-out;
+		 }
+
+		 @keyframes arrowIn {
+			0%   {right:-15%;}
+			100% {right: 10px;}
+		}
+
+		@keyframes arrowOut {
+			0%   {right:10px;}
+			45%  {right:-8%;}
+			60%  {right: -5%;}
+			100% {right:-15%;}
+		}
+         </style>
+ </head>
+<body>
+
+<!-- put your content here -->
+
+<section class="navigation">
+	<a href="#">Volgende</a>
+</section>
+
+
+
+</body>
+
+</html>
