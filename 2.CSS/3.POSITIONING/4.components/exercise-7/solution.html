@@ -1,0 +1,158 @@
+<html>
+<head>
+	<meta charset="utf-8" />   
+	<style>
+
+		body{
+			margin: 0;
+			box-sizing: border-box;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+			font-size: 18px;
+		}
+
+		.promo{
+			display: flex;
+			justify-content: center;
+			margin: 200px 20px;
+		}
+
+		.promo__container{
+			width: 1200px;
+			display: flex;
+			border: 1px solid rgba(128, 128, 128, 0.164);
+		}
+
+		.promo__card{
+			width:300px;
+		}
+
+		.promo__card:not(:last-child){
+			border-right: solid 1px rgba(128, 128, 128, 0.164);
+		}
+
+		.promo__holder{
+			height: 200px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.promo__image{
+			height: 200px;
+			background-color: blue;
+		}
+
+		.smaller{
+			height: 120px;
+		}
+
+		.bigger{
+			width: 100%;
+		}
+
+		.promo__title{
+			border-top: 1px solid rgba(128, 128, 128, 0.164);
+			margin: 0;
+			padding: 20px
+		}
+
+		.sticker{
+			position: absolute;
+			top:20px;
+			right: 20px;
+
+			height:50px;
+			width: 50px;
+
+			display: flex;
+			justify-content: center;
+
+			align-items: center;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+			
+			border-radius: 50%;
+		}
+
+		.red{
+			background-color: #cf4443;
+			color:white;
+		}
+
+		.yellow{
+			background-color: #fcd233;
+			color:black;
+		}
+
+		.sticker p {
+			margin:0;
+		}
+
+		
+	</style>
+</head>
+<body>
+<!-- put your content here -->
+<section class="promo">
+	<div class="promo__container">
+		<div class="promo__card">
+			<div class="promo__holder">
+				<div class="sticker red">
+					<p>
+						-10%
+					</p> 
+				</div>
+				<!-- <div class="promo__image"></div> -->
+				<img class="promo__image" src="./images_4_students/exercise-07/hoverboard.jpg">
+			</div>
+			<p class="promo__title">
+				Hooverboards
+			</p>
+		</div>
+		<div class="promo__card">
+			<div class="promo__holder">
+				<div class="sticker yellow">
+					<p>
+						-10%
+					</p> 
+				</div>
+				<!-- <div class="promo__image"></div> -->
+				<img class="promo__image" src="./images_4_students/exercise-07/drone.jpg">
+			</div>		
+			<p class="promo__title">
+				Drones
+			</p>
+		</div>
+		<div class="promo__card">
+			<div class="promo__holder">
+				<div class="sticker yellow">
+					<p>
+						-10%
+					</p> 
+				</div>
+				<!-- <div class="promo__image"></div> -->
+				<img class="promo__image smaller" src="./images_4_students/exercise-07/camera.jpg">
+			</div>
+			<p class="promo__title">
+				Foto
+			</p>
+		</div>
+		<div class="promo__card">
+			<div class="promo__holder">
+				<div class="sticker yellow">
+					<p>
+						-10%
+					</p> 
+				</div>
+				<!-- <div class="promo__image"></div> -->
+				<img class="promo__image bigger" src="./images_4_students/exercise-07/watches.jpg">
+			</div>
+			<p class="promo__title">
+				Connected devices
+			</p>
+		</div>
+	</div>	
+</section>
+</body>
+</html>
