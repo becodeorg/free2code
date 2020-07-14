@@ -1,0 +1,265 @@
+.m1-l{
+	margin-left: 8px;
+}
+
+.m1-r{
+	margin-right: 8px;
+}
+
+section,footer{
+	margin: 0px 200px;
+	padding-bottom: 50px;
+	border-bottom: 2px solid black;
+}
+
+h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 50px 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 200px;
+}
+
+
+.hamburger{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.line{
+	width: 30px;
+	height: 5px;
+	background-color: black;
+	margin: 2px 0;
+	border-radius: 50px;
+}
+
+
+/*HEADER SECTION*/
+
+header{
+	margin-top: 5px;
+	position: relative;
+	/* background-image: url(./mockup-images/hero-image.jpg);
+	background-size: cover;
+	height: 00px; */
+	height: 600px;
+}
+
+.hero{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.title{
+	position: absolute;
+	top:15%;
+	left:5%;
+}
+
+.title span{
+padding: 0 20px;
+background:white;
+	
+}
+
+.hero__text{
+	display: inline;
+	
+	font-size: 45px;
+	padding: 0 20px;
+	transform: translateY(50%);
+	white-space: pre-line; 
+}
+
+/*What we fund*/
+
+.offers{
+	font-size: 21px;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.offer__box{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	background: green;
+	
+}
+
+.yellow{
+	background: #e7c756;
+	/* height: 70%; */
+	margin:0;
+	padding: 20px;
+	padding-top: 20%;
+}
+
+.blue{
+	background: #90ade9;
+	/* height: 70%; */
+	margin:0;
+	padding: 20px;
+	padding-top: 20%;
+}
+
+.offer__box a{
+	
+	padding: 20px;
+	display: block;
+	height: 30%;
+	background: black;
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+/*About section*/
+
+.about{
+	padding-top: 50px;
+	padding-bottom: 200px;
+	display: flex;
+}
+
+ p{
+	font-size: 24px;
+	font-weight: 400;
+	padding-right: 130px;
+}
+
+.about__img{
+	margin-top: 24px;
+	width: 40%;
+	align-self: center;
+}
+
+
+.communities__title{
+	width: 40%;
+	margin-bottom: 40px;
+}
+
+.button{
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color:white;
+	background-color:#000000 ;
+	text-transform: uppercase;
+	padding: 15px 30px 15px 10px;
+}
+
+/*Card*/
+
+
+.card__container{
+
+	margin-top: 100px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+.card{
+	width: 300px;
+	margin-bottom: 40px;
+	background-color: #e7c756;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+}
+
+.card__blue{
+	background-color: #90ade9;
+}
+
+.card__desc{
+	height: 180px;
+}
+
+.card p, .card h4{
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+.card p{
+	font-size: 17px;
+	color: rgb(92, 92, 92);
+	text-transform: uppercase;
+}
+
+.card h4{
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.card:first-child{
+	margin-left: 0;
+}
+
+.card:last-child{
+	margin-right: 0;
+}
+
+.img__container{
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+}
+
+.img__container img{
+	width: 100%;
+}
+
+
+/*Footer*/
+
+footer{
+	display: flex;
+	justify-content:space-between;
+	border: none;
+}
+
+footer img{
+	align-self: center;
+	width: 300px;
+	margin-right: -70px;
+}
+
+footer a{
+	text-decoration: none;
+	color: #000000;
+}
+
+ul{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	font-size: 20px;
+	font-weight: bold;
+	/* margin: 0; */
+	padding: 20px 0;
+}
+
+li{
+	margin-right: 20px;
+}
