@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exercise - 1</title>
+    <style>
+      #stage {
+        position: relative;
+        background: url(resources/images/css_animation_exercise_stage.png) 0 0
+          no-repeat;
+        background-size: contain;
+        width: 500px;
+        height: 500px;
+        margin: auto;
+        padding: 15px;
+      }
+      #hero {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        border: 1px red dashed;
+
+        animation-name: step1, step2, step3, step4, step5, step6;
+        animation-delay: 0s, 5s, 7s, 7.5s, 9.5s, 12s;
+        animation-duration: 5s, 2s, 0.5s, 2s, 2.5s, 5s;
+        animation-timing-function: linear;
+		animation-fill-mode: forwards;
+      }
+
+      @keyframes step1 {
+        from {
+          left: 15px;
+          top: 10px;
+        }
+        to {
+          left: 440px;
+          top: 10px;
+        }
+      }
+
+      @keyframes step2 {
+        from {
+          left: 440px;
+          top: 10px;
+        }
+        to {
+          left: 440px;
+          top: 100px;
+        }
+      }
+
+      @keyframes step3 {
+        from {
+          left: 440px;
+          top: 100px;
+		  transform:rotate(0deg);
+        }
+        to {
+          left: 220px;
+          top: 100px;
+          transform: rotate(45deg);
+        }
+      }
+
+      @keyframes step4 {
+        from {
+          left: 220px;
+          top: 100px;
+          transform:rotate(45deg);
+        }
+        to {
+          left: 220px;
+          top: 100px;
+          transform:rotate(45deg);
+        }
+      }
+
+      @keyframes step5 {
+        from {
+          left: 220px;
+          top: 100px;
+          transform:rotate(45deg);
+        }
+        to {
+          left: 15px;
+          top: 100px;
+          transform:rotate(0deg);
+          border: 1px blue dashed;
+        }
+      }
+
+      @keyframes step6 {
+        from {
+          left: 15px;
+          top: 100px;
+          border: 1px blue dashed;
+        }
+        to {
+          left: 70%;
+          top: 70%;
+          border: none;
+          background-image: radial-gradient(#fbda61, #f76b1c);
+          border-radius: 100%;
+          width: 150px;
+          height: 150px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="stage">
+      <div id="hero"></div>
+    </div>
+  </body>
+</html>
