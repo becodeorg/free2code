@@ -98,13 +98,11 @@ background:white;
 	display: flex;
 	flex-direction: column;
 	width: 50%;
-	background: green;
-	
 }
 
 .yellow{
 	background: #e7c756;
-	/* height: 70%; */
+	font-weight: bold;
 	margin:0;
 	padding: 20px;
 	padding-top: 20%;
@@ -112,7 +110,7 @@ background:white;
 
 .blue{
 	background: #90ade9;
-	/* height: 70%; */
+	font-weight: bold;
 	margin:0;
 	padding: 20px;
 	padding-top: 20%;

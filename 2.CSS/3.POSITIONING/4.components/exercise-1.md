@@ -10,7 +10,7 @@ Look at this image: ![](resources/integration-challenge-1.png)
 
 Reproduce this interface as close as possible using html and CSS. You have to reach the closest "pixel-perfect" version you can. Ideally, we should not see any difference between the image mockup and your result, without using any image. Images are only accepted for illustrations, when there is no CSS alternative.
 
-**Color:** #FFFFFF.
+**Color:** #b3d5bc and #A0A0A0.
 
 **Tip**: always start with the content: so focus on the html first, without worrying to much about CSS. When your HTML is good, the move on to CSS. This way, you will only add classes when required by the CSS, which is a good practice.
 

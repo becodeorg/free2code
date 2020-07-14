@@ -1,0 +1,1 @@
+We added the icon images as an extra incase the platform cannot handle the emoji's.

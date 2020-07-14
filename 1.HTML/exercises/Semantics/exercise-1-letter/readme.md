@@ -29,7 +29,6 @@ The head of the document:
 
 - The character set of the document should be specified as utf-8 using an appropriate meta tag.
 - The author of the letter should be specified in an appropriate meta tag.
-- The provided CSS should be included inside an appropriate tag.
 
 
 

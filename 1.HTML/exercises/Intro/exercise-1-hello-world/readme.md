@@ -13,16 +13,3 @@ Finally add a `<p>` element with the text 'hello world' to your document. The te
 
 ```
 
-## Finished content
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-  </head>
-<body>
-  <p>hello world</p>  
-</body>
-</html>
-
-``` 

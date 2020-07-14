@@ -11,3 +11,4 @@ Inside this tag we can add different attributes. The following attributes can be
 'width' attribute: sets the width of the image.
 'height' attribute: sets the height of the image.
 
+Try adding the 'unicorns-and-cats.png' to this img tag, also fill in the other blank attributes.

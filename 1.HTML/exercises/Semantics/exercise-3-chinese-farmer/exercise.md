@@ -16,7 +16,7 @@
 
 - Add the attribute `Alt` to the images. What is the purpose of this attribute?
 
-- Add a "*good*" or "*bad*" class to the tags surrounding the words "Good" and "Bad".
+- Add a em tag to the tags surrounding the words "Good" and "Bad" also add a class to the tags named either "*good*" or "*bad*".
 
 - Find the link attribute to indicate the page to which the link should lead, and add it.
 
