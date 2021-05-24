@@ -37,12 +37,12 @@ Therefore, anyone can now not only consume but also create new content: the inte
 
 whereas the Internet is the infrastructure, the Web is a service built on top of the infrastructure. A service enabled by specific software called... **web servers** ! When you visit a website using a browser, the browser acts as a "client", requesting the relevant content to the "web server".
 
-As mentioned on MDN's article ([How the Web works?](hhttps://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)) :
+As mentioned on MDN's article ([How the Web works?](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)) :
 
 > - Clients are the typical web user's internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and web-accessing software available on those devices (usually a web browser like Firefox or Chrome).
->
 > - Servers are computers that store webpages, sites, or apps. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.
 
+Therefore, when you type or click on a web address, what happens is your browser triggers a request to the relevant web server, located at that address. The server receives the URL as a request, and returns the relevant content to the "client" (your browser).
 
 ### HyperText Markup Language
 
@@ -57,7 +57,7 @@ HTML consists of a **series of elements**, which you use to enclose, or wrap, di
 <p>This is another paragraph, also enclosed in a "p" html tag.</p>
 ```
 
-HTML is very easy to learn... So, let's do that!
+HTML is very easy to learn... So, let's start with that!
 
 
 
