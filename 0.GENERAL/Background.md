@@ -15,7 +15,9 @@ And thus, the first web site was born! You can still visit it at this address: h
 
 *Portrait of Tim Berners-Lee - © Paul Clarke, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons*
 
-## a browser to surf on the web
+The Internet is the backbone of the Web, the technical infrastructure that makes the Web possible. At its most basic, the Internet is a network which allows computers to communicate all together, through various types of wires: phone lines, ethernet cables, WiFi, bluetooth...
+
+## A browser to surf on the web
 
 Now, to visit the website (and the many others which followed) one needed another piece of software. Tim Berners-Lee thus created the so-called "WorldWideWeb browser", the first **a Web browser**. This first version was very basic, only allowing to show text and hyperlinks.
 
@@ -29,6 +31,17 @@ Now, to visit the website (and the many others which followed) one needed anothe
 Fast forward to 2021: modern web browsers can display not only text and links, but also images, videos, and run full-fledged applications!
 
 Therefore, anyone can now not only consume but also create new content: the internet has become the main platform for most of our professional but also private lifes. Communicating with friends and families, collaborating with colleagues, managing your bank account or planning your holidays... Everything is now happening online, thanks to the Internet !
+
+
+## The difference between the internet and the Web
+
+whereas the Internet is the infrastructure, the Web is a service built on top of the infrastructure. A service enabled by specific software called... **web servers** ! When you visit a website using a browser, the browser acts as a "client", requesting the relevant content to the "web server".
+
+As mentioned on MDN's article ([How the Web works?](hhttps://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)) :
+
+> - Clients are the typical web user's internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and web-accessing software available on those devices (usually a web browser like Firefox or Chrome).
+>
+> - Servers are computers that store webpages, sites, or apps. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.
 
 
 ### HyperText Markup Language
@@ -45,7 +58,6 @@ HTML consists of a **series of elements**, which you use to enclose, or wrap, di
 ```
 
 HTML is very easy to learn... So, let's do that!
-
 
 
 
