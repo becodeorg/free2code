@@ -1,16 +1,16 @@
 # Article to HTML
 
-Convert the following letter to valid HTML by making use of semantic HTML elements.
+**Convert the following letter to valid HTML by making use of semantic HTML elements.**
 
-For this project, your task is to mark up a letter that needs to be hosted on a university intranet. The letter is a response from a research fellow to a prospective PhD student concerning their application to the university.
+(Source: [Marking up a letter](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter) by [Mozilla contributors](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter/contributors.txt), licensed under CC-BY-SA 2.5 )
+
 
 Block/structural semantics:
 
-- You should structure the overall document with an appropriate structure including doctype, and `<html>`, `<head>` and `<body>` elements.
+- You should structure the overall document with an appropriate and valid structure including doctype, and `<html>`, `<head>` and `<body>` elements.
 - The letter in general should be marked up with a structure of paragraphs and headings, with the exception of the below points. There is one top level heading (the "Re:" line) and three second level headings.
 - The semester start dates, study subjects and exotic dances should be marked up using an appropriate list type.
 - The two addresses should be put inside `<address>` elements. Each line of the address should sit on a new line, but not be in a new paragraph.
-
 
 
 Inline semantics:
@@ -24,7 +24,6 @@ Inline semantics:
 - The university motto quote and citation should be marked up with appropriate elements.
 
 
-
 The head of the document:
 
 - The character set of the document should be specified as utf-8 using an appropriate meta tag.
@@ -32,9 +31,7 @@ The head of the document:
 
 
 
-
-
-The letter: 
+The letter:
 
 ```
 Dr. Eleanor Gaye
