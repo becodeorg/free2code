@@ -1,6 +1,10 @@
-# How does the internet work
+# How does the internet work ?
 
-# In short
+This content is provided for your curiosity. It gets sometimes a little bit technical, so do not worry if you do not understand everything.
+
+The following content is a (slightly adapted) version of [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)  by [Mozilla Contributors](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work/contributors.txt) and is licensed under CC-BY-SA 2.5.
+
+# Summary
 
 The Internet is the backbone of the Web, the technical infrastructure that makes the Web possible. At its most basic, the Internet is a large network of computers which communicate all together.
 
@@ -10,7 +14,7 @@ The history of the Internet is somewhat obscure (you can read more about it [her
 
 ## A simple network
 
-When two computers need to communicate, you have to link them, either physically (usually with an Ethernet cable) or wirelessly (for example with WiFi or Bluetooth systems). All modern computers can sustain any of those connections.
+In order to communicate, two computers have to be linked, either physically (usually with an Ethernet cable) or wirelessly (for example with WiFi or Bluetooth systems). All modern computers can sustain any of those connections.
 
 ![internet schema](assets/internet-schema-1.png)
 
@@ -18,7 +22,7 @@ Such a network is not limited to two computers. You can connect as many computer
 
 ![internet schema](assets/internet-schema-2.png)
 
-To solve this problem, each computer on a network is connected to a special tiny computer called a router. This router has only one job: like a signaler at a railway station, it makes sure that a message sent from a given computer arrives at the right destination computer. To send a message to computer B, computer A must send the message to the router, which in turn forwards the message to computer B and makes sure the message is not delivered to computer C.
+To solve this problem, each computer on a network is connected to a special tiny computer called a **router**. This router has only one job: it makes sure that a message sent from a given computer arrives at the right destination computer. To send a message to computer B, computer A must send the message to the router, which in turn forwards the message to computer B and makes sure the message is not delivered to computer C.
 
 Once we add a router to the system, our network of 10 computers only requires 10 cables: a single plug for each computer and a router with 10 plugs.
 
@@ -26,7 +30,7 @@ Once we add a router to the system, our network of 10 computers only requires 10
 
 ## A network of networks
 
-So far so good. But what about connecting hundreds, thousands, billions of computers? Of course a single router can't scale that far, but, if you read carefully, we said that a router is a computer like any other, so what keeps us from connecting two routers together? Nothing, so let's do that.
+So far so good. But what about connecting hundreds, thousands, billions of computers? Of course a single router cannot scale that far, but, if you read carefully, we said that a router is a computer like any other, so what keeps us from connecting two routers together? Nothing, so let's do that.
 
 ![internet schema](assets/internet-schema-4.png)
 

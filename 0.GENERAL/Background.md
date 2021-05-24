@@ -12,7 +12,8 @@ A British scientist named Tim Berners-Lee, who worked at CERN, invented in 1989 
 And thus, the first web site was born! You can still visit it at this address: http://info.cern.ch
 
 ![Tim Berners-Lee ](./assets/Sir_Tim_Berners-Lee_(cropped)-.jpg)
-Portrait of Tim Berners-Lee - © Paul Clarke, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+
+*Portrait of Tim Berners-Lee - © Paul Clarke, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons*
 
 ## a browser to surf on the web
 
@@ -20,6 +21,7 @@ Now, to visit the website (and the many others which followed) one needed anothe
 
 
 ![Screen capture of the first browser developed by Sir Tim Berners-Lee - Image author: Tim Berners-Lee](assets/worldwideweb-browser.png)
+
 *Screen capture of the first browser developed by Sir Tim Berners-Lee - Image author: Tim Berners-Lee (public domain)*
 
 ## The internet, today
