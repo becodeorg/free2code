@@ -33,11 +33,11 @@ It's a must-have skill for any web developer out there.
 
 Look at this schematic, which sums all how to write CSS in a way that the browser understands it.
 
-![](resources/images/selector.gif)
+![](./resources/images/selector.png)
 
 As you can see, there are fancy words here. Don't panick, there won't be much more :-)
 
-"**selector**" indicates which element(s) of your HTML file should receive the instructions. It points to the HTML element you want to style. In this example, all `<h1>` tags on the html page will receive the CSS properties assigned to the `h1`css selector. 
+"**selector**" indicates which element(s) of your HTML file should receive the instructions. It points to the HTML element you want to style. In this example, all `<h1>` tags on the html page will receive the CSS properties assigned to the `h1`css selector.
 
 The **declaration** block contains one or more declarations separated by semicolons.
 
@@ -96,7 +96,7 @@ Another way to include CSS is by using the `<style>` tag inside of our `head` se
 </head>
 ```
 
-We just found a solution to not mix our HTML with our CSS, but our styling is still inside of our HTML file.   
+We just found a solution to not mix our HTML with our CSS, but our styling is still inside of our HTML file.
 Maybe, there is a better way to include our CSS..? Well, yes there is!
 
 ### 3. External CSS
@@ -117,7 +117,7 @@ Like the name gives it away, we will have some **external** CSS file(s), which w
 As you can see, we use a `<link>` tag this time to make a connection with our CSS file.
 This link tag will need a few attributes to work, the `rel=" stylesheet"` specifies the relationship between the HTML and CSS file, the browser knows now that we are trying to link a Stylesheet (CSS file).
 The `type=" text/CSS"` will tell the browser what kind of resource we are linking. It's not an obligation to use this, but we recommend using it to avoid any problems in the future.
-Last but not least, the `href="resources/css/style.css"` is our path that the link will use to find the document.   
+Last but not least, the `href="resources/css/style.css"` is our path that the link will use to find the document.
 
 Having an external CSS file is the most recommended way to do, because it "separates concerns" : the HTML file is for content, the CSS file is for decoration !
 
@@ -137,9 +137,9 @@ This will give the same output as our result in example 1, the benefit of this i
 
 ## Working with colours
 
-Colours are a big part of how things look. And we, humans, love colour ! 
+Colours are a big part of how things look. And we, humans, love colour !
 
-There are many millions of colours available in Nature.... Which was quite a challenge to transfer in the digital world of computers.  First, there were only a few colours available, using predefined colour names (like "red", "blue", "beige", "chocolate")... 
+There are many millions of colours available in Nature.... Which was quite a challenge to transfer in the digital world of computers.  First, there were only a few colours available, using predefined colour names (like "red", "blue", "beige", "chocolate")...
 
 ### Named colours
 
@@ -149,7 +149,7 @@ It's nice to know they exist, but you will feel fastly limited by having only 14
 
 ### The RGB system
 
-Quickly computers became more powerful and able to manipulate millions of different colors, using a mix of the fundamental 3 colours of the screen: Red, Green and Blue, which is known as the "RGB system". 
+Quickly computers became more powerful and able to manipulate millions of different colors, using a mix of the fundamental 3 colours of the screen: Red, Green and Blue, which is known as the "RGB system".
 
 ```css
 p{
@@ -159,7 +159,7 @@ color: rgb(255, 0, 0);
 
 This says "I want the maximum of Red (maximum is 255), no green (0), and no blue (0)... Leading to a full bright red color.
 
-This is exactly the same as 
+This is exactly the same as
 
 ```css
 p{
@@ -177,8 +177,8 @@ color: rgb(0, 182, 255);
 
 ### Transparency !
 
-You can also use a fourth value, to set the "alpha", which means "transparency" (or "opacity" if you prefer). Its value goes from 0 (totally transparent, the tag would be invisible) to 1 (fully opaque). 
-Instead of `RGB` we use `RGBA` to add the transparent layer to our colour. 
+You can also use a fourth value, to set the "alpha", which means "transparency" (or "opacity" if you prefer). Its value goes from 0 (totally transparent, the tag would be invisible) to 1 (fully opaque).
+Instead of `RGB` we use `RGBA` to add the transparent layer to our colour.
 
 So let's say you want an orange square with 60% transparency, you would do this:
 
@@ -274,7 +274,7 @@ Play with it's values, we will discuss this in group later on.
 
 As you learn CSS, you will see that CSS is full of hacks and tricks. One really useful one is that you can turn an image like this:
 
-![Chief Hopper](./resources/images/chiefhopper.jpg) 
+![Chief Hopper](./resources/images/chiefhopper.jpg)
 
   into that:
 
