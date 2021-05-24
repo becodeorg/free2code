@@ -37,11 +37,11 @@ Look at this schematic, which sums all how to write CSS in a way that the browse
 
 As you can see, there are fancy words here. Don't panick, there won't be much more :-)
 
-"**selector**" indicates which element(s) of your HTML file should receive the instructions. It points to the HTML element you want to style. In this example, all `<h1>` tags on the html page will receive the CSS properties assigned to the `h1`css selector.
+"**selector**" indicates which element(s) of your HTML file should receive the instructions. It points to the HTML element you want to style. In this example, all `<p>` tags on the html page will receive the CSS properties assigned to the `p` css selector.
 
-The **declaration** block contains one or more declarations separated by semicolons.
+The **declaration** block contains one (or several declarations) separated by the semicolon character (`;`).
 
-Each declaration includes a CSS **property name** and a **value**, separated by a colon (this character `:`).
+Each CSS declaration includes a CSS **property name** and a **value**, separated by a colon (this character `:`).
 
 A CSS declaration always ends with a semicolon (`;`), and declaration blocks are surrounded by curly braces. Example:
 
