@@ -8,18 +8,16 @@ To write this content, people could use a very simple but powerful innovation: *
 
 But again, given the fact that networks were only accessible locally, the texts could only be linked and accessed locally. So, if a researcher in one university wanted to consult a document from another university, she would have to take her car and drive over there, in order to log into the University's local network and finally access the document. Not very practical, is it ?
 
-A British scientist named Tim Berners-Lee, who worked at CERN, invented in 1989 a software called the World Wide Web (that's what the "www" means in a web address), that allowed people to publish content and make it accessible to anyone having the address, across all networks. That's why the Internet is often called: the network of networks.
+A British scientist named Tim Berners-Lee, who worked at CERN, invented in 1989 a software solution that allowed people to publish content and make it accessible to anyone having the address, across all networks. That's why the Internet is often called: the network of networks.
 And thus, the first web site was born! You can still visit it at this address: http://info.cern.ch
 
 ![Tim Berners-Lee ](./assets/Sir_Tim_Berners-Lee_(cropped)-.jpg)
 
 *Portrait of Tim Berners-Lee - © Paul Clarke, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons*
 
-The Internet is the backbone of the Web, the technical infrastructure that makes the Web possible. At its most basic, the Internet is a network which allows computers to communicate all together, through various types of wires: phone lines, ethernet cables, WiFi, bluetooth...
-
 ## A browser to surf on the web
 
-Now, to visit the website (and the many others which followed) one needed another piece of software. Tim Berners-Lee thus created the so-called "WorldWideWeb browser", the first **a Web browser**. This first version was very basic, only allowing to show text and hyperlinks.
+Now, to visit the website (and the many others which followed) one needed another piece of software. Tim Berners-Lee thus created the so-called "WorldWideWeb browser", the first **Web browser**. This first version was very basic, only allowing to show text and hyperlinks.
 
 
 ![Screen capture of the first browser developed by Sir Tim Berners-Lee - Image author: Tim Berners-Lee](assets/worldwideweb-browser.png)
@@ -35,7 +33,9 @@ Therefore, anyone can now not only consume but also create new content: the inte
 
 ## The difference between the internet and the Web
 
-whereas the Internet is the infrastructure, the Web is a service built on top of the infrastructure. A service enabled by specific software called... **web servers** ! When you visit a website using a browser, the browser acts as a "client", requesting the relevant content to the "web server".
+The Internet is the backbone of the Web, the technical infrastructure that makes the Web possible. At its most basic, the Internet is a network which allows computers to communicate all together, through various types of wires: phone lines, ethernet cables, WiFi, bluetooth...
+
+So, whereas the Internet is the infrastructure, the Web is a service built on top of the infrastructure. A service enabled by specific software called... **web servers** ! When you visit a website using a browser, the browser acts as a "client", requesting the relevant content to the "web server".
 
 As mentioned on MDN's article ([How the Web works?](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)) :
 
