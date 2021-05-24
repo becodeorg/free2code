@@ -17,7 +17,7 @@ And thus, the first web site was born! You can still visit it at this address: h
 
 ## A browser to surf on the web
 
-Now, to visit the website (and the many others which followed) one needed another piece of software. Tim Berners-Lee thus created the so-called "WorldWideWeb browser", the first **Web browser**. This first version was very basic, only allowing to show text and hyperlinks.
+Now, to visit this first website (and the many others which followed) one needed another piece of software. Tim Berners-Lee thus created the so-called "WorldWideWeb browser", the first **Web browser**. This first version was very basic, only allowing to show text and hyperlinks.
 
 
 ![Screen capture of the first browser developed by Sir Tim Berners-Lee - Image author: Tim Berners-Lee](assets/worldwideweb-browser.png)
