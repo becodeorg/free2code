@@ -45,9 +45,7 @@ img {
 }
 ```
 
-![](./resources/display-block.png)
-
-> image needs to change
+![](./resources/display-block-small.png)
 
 ## The CSS Box Model
 
