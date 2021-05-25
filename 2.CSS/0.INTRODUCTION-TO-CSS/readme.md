@@ -77,7 +77,7 @@ Easy again! As you can see, you can add up properties using a semicolon (the cha
 
 We could add many more properties inside of this method but it can get really messy in our HTML file so it's not really recommanded. The next two methods are much cleaner...
 
-### 2. The style block
+### 2. The <style> block
 
 Another way to include CSS is by using the `<style>` tag inside of our `head` section of our HTML page.
 
