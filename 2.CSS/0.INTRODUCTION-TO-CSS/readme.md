@@ -48,13 +48,13 @@ A CSS declaration always ends with a semicolon (`;`), and declaration blocks are
 ```css
 h1 {
   color: blue;
-  font-size:12px;
+  font-size: 12px;
 }
 ```
 
 ## Getting started
 
-There are three  ways of implementing CSS in our web-pages.
+There are three ways of implementing CSS in our web-pages.
 
 ### 1. Inline CSS
 
@@ -62,7 +62,7 @@ Firstly we can include CSS directly in our HTML elements.
 To accomplish this, we make use of the `style` attribute, and write CSS code inside its value (the part in between the quotes). Example :
 
 ```html
-<h1 style="color: blue"> Hello world! </h1>
+<h1 style="color: blue">Hello world!</h1>
 ```
 
 As you see, the css instructs the browser to use the color blue to render the `h1`tag. Easy, isn't it ? And you can combine several properties. For example, let's make it blue and bold:
@@ -75,24 +75,24 @@ As you see, the css instructs the browser to use the color blue to render the `h
 
 Easy again! As you can see, you can add up properties using a semicolon (the character `;`) to separate them so the browser does not get confused.
 
-We could add many more properties inside of this method but  it can get really messy in our HTML file so it's not really recommanded. The next two methods are much cleaner...
+We could add many more properties inside of this method but it can get really messy in our HTML file so it's not really recommanded. The next two methods are much cleaner...
 
-### 2. The <style> block
+### 2. The style block
 
 Another way to include CSS is by using the `<style>` tag inside of our `head` section of our HTML page.
 
 ```html
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CSS is awesome! - BeCode</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>CSS is awesome! - BeCode</title>
 
-    <style>
-        h1{
-            color:blue;
-        }
-    </style>
+  <style>
+    h1 {
+      color: blue;
+    }
+  </style>
 </head>
 ```
 
@@ -104,14 +104,14 @@ Maybe, there is a better way to include our CSS..? Well, yes there is!
 Like the name gives it away, we will have some **external** CSS file(s), which we will import inside the `<head>` of our HTML page.
 
 ```html
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>The best way! - BeCode</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>The best way! - BeCode</title>
 
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-    </head>
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+</head>
 ```
 
 As you can see, we use a `<link>` tag this time to make a connection with our CSS file.
@@ -128,9 +128,9 @@ Having an external CSS file is the most recommended way to do, because it "separ
 Inside of our CSS file we have written the following:
 
 ```css
-    h1{
-        color:blue;
-    }
+h1 {
+  color: blue;
+}
 ```
 
 This will give the same output as our result in example 1, the benefit of this is that our CSS is seperated from out HTML **and** we can import this CSS file in multiple pages at once!
@@ -139,7 +139,7 @@ This will give the same output as our result in example 1, the benefit of this i
 
 Colours are a big part of how things look. And we, humans, love colour !
 
-There are many millions of colours available in Nature.... Which was quite a challenge to transfer in the digital world of computers.  First, there were only a few colours available, using predefined colour names (like "red", "blue", "beige", "chocolate")...
+There are many millions of colours available in Nature.... Which was quite a challenge to transfer in the digital world of computers. First, there were only a few colours available, using predefined colour names (like "red", "blue", "beige", "chocolate")...
 
 ### Named colours
 
@@ -152,8 +152,8 @@ It's nice to know they exist, but you will feel fastly limited by having only 14
 Quickly computers became more powerful and able to manipulate millions of different colors, using a mix of the fundamental 3 colours of the screen: Red, Green and Blue, which is known as the "RGB system".
 
 ```css
-p{
-color: rgb(255, 0, 0);
+p {
+  color: rgb(255, 0, 0);
 }
 ```
 
@@ -162,16 +162,16 @@ This says "I want the maximum of Red (maximum is 255), no green (0), and no blue
 This is exactly the same as
 
 ```css
-p{
-color: red;
+p {
+  color: red;
 }
 ```
 
 So if, for example, you really want that specific shade of blue that describes the Scottish sky in Spring, then you need to find its correct translation in the RGB system.
 
 ```css
-p{
-color: rgb(0, 182, 255);
+p {
+  color: rgb(0, 182, 255);
 }
 ```
 
@@ -186,13 +186,13 @@ So let's say you want an orange square with 60% transparency, you would do this:
 div {
   width: 100px;
   height: 100px;
-  background-color: rgba(255, 221, 0,0.6);
+  background-color: rgba(255, 221, 0, 0.6);
 }
 ```
 
 ### The Hexadecimal system
 
-For your information, there is yet another way to express the colour values, using the Hexadecimal system. In that system, `red` for example is expressed as `#FF0000`  , `black`is `#000000`and white : `#FFFFFF`.
+For your information, there is yet another way to express the colour values, using the Hexadecimal system. In that system, `red` for example is expressed as `#FF0000` , `black`is `#000000`and white : `#FFFFFF`.
 
 Hexadecimal system functions from values going from 0 to 9 and continues to A up to F for a total of 16 values. By using 6 Hexadecimal values, you are able to express 256 millions of colours.
 
@@ -216,56 +216,53 @@ Okay to explain this a little deeper, let's get our hands dirty!
 
 ```html
 <div class="box1">
-  <div class="box2">
-  </div>
+  <div class="box2"></div>
 </div>
-<div class="box3">
-</div>
+<div class="box3"></div>
 ```
 
 **Next create an CSS file and copy the following lines inside of this:**
 
 ```css
-.box1{
-  width:200px;
-  height:200px;
-  border-top:1px solid red;
+.box1 {
+  width: 200px;
+  height: 200px;
+  border-top: 1px solid red;
   border-right: 1px solid black;
   border-bottom: 2px dotted green;
   border-left: 2px dashed green;
-  padding:100px;
-  padding-right:50px;
+  padding: 100px;
+  padding-right: 50px;
   background-color: yellow;
 
   /*--We will cover this later--*/
- display:inline-block;
- /*----------------------------*/
-}
-
-.box2{
-  width:200px;
-  height:200px;
-  background-color:red;
-  /*--We will cover this later--*/
-  display:inline-block;
+  display: inline-block;
   /*----------------------------*/
-
 }
 
-.box3{
-  width:100px;
-  height:100px;
-  background-color:green;
-  margin-left:200px;
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
   /*--We will cover this later--*/
-  display:inline-block;
+  display: inline-block;
+  /*----------------------------*/
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin-left: 200px;
+  /*--We will cover this later--*/
+  display: inline-block;
   /*----------------------------*/
 }
 ```
 
-That sure won't look *exactly* pretty, but that's not the concern yet.
+That sure won't look _exactly_ pretty, but that's not the concern yet.
 
-As you can see, you can specify each border of the rectangle using 3 parameters: the **thickness** of the line (here, in pixels), the line **type** (`solid`,  `dashed`, `dotted`), and its **colour**.
+As you can see, you can specify each border of the rectangle using 3 parameters: the **thickness** of the line (here, in pixels), the line **type** (`solid`, `dashed`, `dotted`), and its **colour**.
 
 Now while you are at it, try to figure out the difference between `padding` and `margin`.
 Play with it's values, we will discuss this in group later on.
@@ -274,23 +271,24 @@ Play with it's values, we will discuss this in group later on.
 
 As you learn CSS, you will see that CSS is full of hacks and tricks. One really useful one is that you can turn an image like this:
 
-![Chief Hopper](./resources/images/chiefhopper.jpg)
+![Chief Hopper](./resources/images/chiefhopper.jpg)  
+_The following image belongs to their respective owners: The Duffer Brothers - a character from "Stranger Things"_
 
-  into that:
+into that:
 
-  ![Chief Hopper, rounded!](./resources/images/chiefhopper-rounded.jpg)
+![Chief Hopper, rounded!](./resources/images/chiefhopper-rounded.jpg)
 
-  Here is the one property that makes it possible:
+Here is the one property that makes it possible:
 
 ```css
-    border-radius:50%;
+border-radius: 50%;
 ```
 
 You'll get a chance to experiment with it in the exercises....
 
 ## Comments in CSS
 
-Comments are used to explain the code, and may help when you edit the source code at a later date.  Comments are **ignored by browsers**.
+Comments are used to explain the code, and may help when you edit the source code at a later date. Comments are **ignored by browsers**.
 
 A CSS comment starts with `/*` and ends with `*/`:
 
@@ -305,7 +303,7 @@ You can add comments wherever you want in the code:
 
 ```css
 p {
-  color: red;  /* Set text color to red */
+  color: red; /* Set text color to red */
 }
 ```
 
@@ -317,7 +315,7 @@ a multi-line
 comment */
 
 p {
- color: red;
+  color: red;
 }
 ```
 
