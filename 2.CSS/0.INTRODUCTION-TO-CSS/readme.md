@@ -271,8 +271,9 @@ Play with it's values, we will discuss this in group later on.
 
 As you learn CSS, you will see that CSS is full of hacks and tricks. One really useful one is that you can turn an image like this:
 
-![Chief Hopper](./resources/images/chiefhopper.jpg)  
-_The following image belongs to their respective owners: The Duffer Brothers - a character from "Stranger Things"_
+![Chief Hopper](./resources/images/chiefhopper.jpg)
+
+> _The following image belongs to their respective owners: The Duffer Brothers - a character from "Stranger Things"_
 
 into that:
 
