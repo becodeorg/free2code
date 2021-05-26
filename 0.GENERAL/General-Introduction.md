@@ -24,4 +24,3 @@ No, you don't. Coding is about trying until it works. So we all start by failing
 Ready ? Let's go!
 
 ![](./assets/quit-basketball.gif)
-

@@ -2,7 +2,7 @@
 
 ## A network of networks
 
-Before the invention of the internet, many universities and institutions already had some computer infrastructure, consisting of computers connected to each others as local networks. Using these computers, one could therefore publish  content and communicate within its own institution, but not globally.
+Before the invention of the internet, many universities and institutions already had some computer infrastructure, consisting of computers connected to each other as local networks. Using these computers, one could therefore publish  content and communicate within its own institution, but not globally.
 
 To write this content, people could use a very simple but powerful innovation: **hypertext**. Hypertext simply means text that can contain "hyperlinks", which is a fancy way to describe a link pointing to texts located in other parts of the network.
 
@@ -28,7 +28,7 @@ Now, to visit this first website (and the many others which followed) one needed
 
 Fast forward to 2021: modern web browsers can display not only text and links, but also images, videos, and run full-fledged applications!
 
-Therefore, anyone can now not only consume but also create new content: the internet has become the main platform for most of our professional but also private lifes. Communicating with friends and families, collaborating with colleagues, managing your bank account or planning your holidays... Everything is now happening online, thanks to the Internet !
+Therefore, anyone can now not only consume but also create new content: the internet has become the main platform for most of our professional but also private lives. Communicating with friends and families, collaborating with colleagues, managing your bank account or planning your holidays... Everything is now happening online, thanks to the Internet !
 
 
 ## The difference between the internet and the Web
