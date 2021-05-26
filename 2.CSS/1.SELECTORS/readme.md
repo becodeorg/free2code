@@ -8,7 +8,7 @@ Do you remember this visual from the introduction ?
 
 A CSS selector is the part of a CSS rule set that actually selects the content you want to style. Selectors are what allows the browser to know which html element(s) should be painted with which CSS properties.
 
-![](./resources/html-css-selector.png)
+![](./resources/css-selector.png)
 
 For example I got this piece of HTML:
 
@@ -48,7 +48,7 @@ Now only the background of our first div will be changed, just like we wanted!
 
 What you did here, my friend, was using a **class selector**.
 
-![](./resources/class-selector.png)
+![](./resources/class-selectors.png)
 
 The Class Selector is indicated by a leading period (the `.`character) immediately follow by the class name you want to use. It can be anything, as long as it is the same as in the HTML file.
 
@@ -92,7 +92,7 @@ Cool, but if you go with your mouse on top of it, nothing happens. Sad, for an i
 
 That's where Pseudo-class enter the game...
 
-![](./resources/selector-pseudoclass.png)
+![](./resources/psuedo-class-selectors.png)
 
 CSS “pseudo-classes” provide a mechanism for hooking into this kind of temporary user information. At any given time, an `<a href>` element can be in a number of different states, and you can use pseudo-classes to style each one of them individually. Think of them as class selectors that you don’t have to write on your own because they’re built into the browser.
 
