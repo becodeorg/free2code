@@ -13,7 +13,7 @@ You can imagine each HTML element as a box, we have 2 different versions of thes
 
 Take a look at this visual representation of the difference between a block and an inline element.
 
-![](./resources/inline-and-blocks.png)
+![](./resources/inline-and-blocks-small.png)
 
 Each HTML element has a default type of box, you will see that not all elements share the same box type in the end!
 For example `<div>`, `<h1>`,`<p>`, `<ul>`,... are **block elements** whilst `<img>`, `<a>`,... are **inline elements**.
@@ -28,11 +28,11 @@ The **height** of a block element will always be decided by its **content** - if
 
 ## Inline elements
 
-Inline elements behavior is much different than Block elements, they are used to style items inside block elements. Unlike the Block element, which takes the full parents width, The Inline element width is always based on its content.
+Inline elements behavior is much different than Block elements, they are used to style items inside block elements. Unlike the Block element, which takes the full parents width, the Inline element width is always based on its content.
 
 Take a look at the visual below - You will see that the grey parts (block elements) take the full width of the body. Whilst the blue parts (inline elements) only take the width of its content.
 
-![](./resources/html-blocks-small.png)
+![](./resources/display-inline-small.png)
 
 ### Changing box type behavior
 
@@ -157,7 +157,7 @@ button {
 
 Instead of taking the full browser width, our paragraph is now 200 pixels, but it hugs the left side of our page...
 
-_Width/height works only on `block` elements._
+_Width/height works only on `block` (or inline-blocks) elements._
 
 ## Centering with auto-margins
 
