@@ -1,135 +1,154 @@
 # CSS animation & Transitions
 
-## Transitions
+We are almost through the CSS part, well done! But there is still something that we have not covered yet. What if you want to move elements around? Or what if you want to animate your beautiful button just like the example below:
 
 ![coolbutton.gif](./resources/images/coolbutton.gif)
 
-CSS transitions allows you to **change CSS property values smoothly**, over a given **duration**.
-For example if you hover over a button, the color changes instantly without adding a transition property.
-With the transition property and the correct values, we can get smooth transitions between widths, heights, colors, ...
+Well, all of this is possible with `Transitions` and `Animations`!
 
-### Syntax
+## Transitions
 
-To create a transition effect, you must specify two things:
+With out Transitions all changes on a CSS element will happen instantly. Lets imagine we use a `:hover` psuedo-class, normally the effects will happen instantly. But when we add a transition attribute, and all the proper values, we create a smooth transition between the two phases.
 
-- the CSS property you want to add an effect to (ex: `background-color`))
-- the duration of the effect (ex: `3s`= 3 seconds)
+You can use transitions with widths, heights, transforms...
 
-**Note:** If the duration part is not specified, the transition will have no effect, because the default value is 0.
+### How to use a transition in css?
 
-The following example shows a 100px * 100px red `<div>` element. The `<div>` element also has a transition effect for the width property, with a duration of 2 seconds:
+Take a look at the following CSS snippet:
 
-```css
-div {
-  width: 100px;
-  height: 100px;
-  background: red;
-  transition: width 2s;
+```CSS
+button {
+  color: red;
+  transition: color 0.5s ease-in-out 1s;
+  /*transition: (property) (duration) (transition-timing-function) (delay)*/
+}
+
+button:hover{
+  color:blue;
 }
 ```
 
-The transition effect will start when the specified CSS property (width) changes value.
+If we would use this CSS it would result into a button that has a font color of red, but when we hover it, it will wait 1 second, after that, it smoothly change the color red to blue over a period of 0.5 seconds.
 
-Now, let us specify a new value for the width property when a user mouses over the `<div>` element:
+#### Lets go over the different values
 
-```css
-div:hover {
-  width: 300px;
-}
+- **Property**: What do you want to animate? Width,height,color,...
+- **Duration**: How long should the transition last? 0.5 seconds, 1 second, ...
+- **transition-timing-function**: What is the speeds of the transition (see below for more info).
+- **Delay**: How much delay should there be when the transition triggers
+
+You can use transitions without using all properties, if you don't assign any values, it will use it's default value.
+
+These are the default values:
+
+```CSS
+  transition: all 0 ease 0;
 ```
 
-When we hover over the div, it's width increases by 200px over a duration of 2 seconds.
+As you can see, in order for your transition to work you can leave all values empty except from the **duration** value, otherwise there will be no smooth transition.
+
+**Note:** The `all` value will animate all different properties if they change. While this can be easy to animate everything quickly, it can lead into strange and unwanted behaviors.
 
 ### Transition timing
 
-But the animation looks a bit flat, right? That's because in animation terms this animation is "linear", like a flat line. If we are honest with ourselves, we rather look at rounded lines/shapes rather than a boring flat line.
+Sometimes animations feel boring and lifeless, if you want to make changes to that, you most likely want to look into the `transition-timing-function`.
 
-It also makes your animations more natural..
+This will decide if your the _"rythm"_ of your animation. Does it start slow or fast.. Does it end slow..
+Not only is this better for the eye, it makes an animation feel more natural.
+
+Take a look at this animation value sheet:
 
 ![Animation-Value-Graph.gif](./resources/images/Animation-Value-Graph.gif)
 
-Here is an example of how we can add a transition timing to our transition:
+> Leanndro www.leanndro.com - Animation Value Graph - Timing http://spungella.blogspot.com/2016/03/animation-value-graph-timing.html March 17, 2016
 
-```css
-div{
-    width: 100px;
-    height: 100px;
-    background: red;
-    transition: width 2s; 
-    transition-timing-function: ease-in-out;
-    /*You can also just write transition: width 2s ease-in-out-*/
-}
-```
+- The top row shows you the `curve` and animation behind each value.
+- The bottom one shows animations of when we would manipulate this curve.
 
-Feel free to experiment with other _easing functions_  (search for them in the Documentation - remember searching is part of the job of a professional developer! ;-) )
+Amazing how we can change the feeling by changing a curve, right?
+
+Feel free to experiment with other _easing functions_ (search for them in the Documentation - remember searching is part of the job of a professional developer! ;-) )
 
 ## Animations
 
-An animation lets an element gradually change from one style to another.
-You can change as many CSS properties you want, as many times you want.
+You would think an animation is the same as a transition, they both change the property values. Whilst the transition can change over two states, an animation can transition over as many states as you want.
 
-To use CSS animations you must first specify some *keyframes* for the animation.
-A keyframe holds what CSS properties the element will have at a given time.
+In order to use CSS animations you have to use _"keyframes"_, which contains an elements property and ofcourse the value to what it should change to.
 
-### The @keyframes Rule
+### How do we use keyframes?
 
-When you specify CSS styles inside the `@keyframes` rule, the animation will gradually change from the current style to the new style at certain times.
+First of all we have to create the keyframes animation, this can be achieved by simply creating a `@keyframes` css rule, next give it a name so we can call it later in our elements.
 
-To get an animation to work, you must bind the animation to an element.
+The next step is to define `from` and where `to` our animation should go. You will see it the following example,
 
-The following example binds the "example" animation to the `<div>` element. The animation will last for 4 seconds, and it will gradually change the background-color of the `<div>` element from "red" to "yellow":
+- That we start `from` a `font-size` of `50px` and the `color` `red`.
+- And that we go `to` a `font-size` of `100px` and the `color` `blue`.
 
 ```css
 /* The animation code */
-@keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
+@keyframes test {
+  from {
+    font-size: 50px;
+    color: red;
+  }
+  to {
+    font-size: 100px;
+    color: blue;
+  }
 }
 
 /* The element to apply the animation to */
-div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
+p {
+  color: red;
+  animation: test 4s infinite alternate ease-in-out;
 }
 ```
 
 **This would result something like this:**
 
-![](./resources/images/animation-01.gif)
+![](./resources/images/simple-animation.gif)
 
-**Note:** The `animation-duration` property defines how long time an animation should take to complete. If the `animation-duration` property is not specified, no animation will occur, because the default value is `0s` (0 seconds).
+As you can see use "`from`"(0%) and "`to`"(100%) - which is only 2 states. But as I have told you earlier, it's possible to animate many more states.
 
-In the example above we have specified when the style will change by using the keywords "`from`" and "`to`" (which represents 0% (start) and 100% (complete)).
-
-It is also possible to use percent. By using percent, you can add as many style changes as you like.
-
-The following example will change the background-color of the `<div>` element when the animation is 25% complete, 50% complete, and again when the animation is 100% complete:
+This can be achieved by using percentages. Take a look at the following example:
 
 ```css
 /* The animation code */
-@keyframes example {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
+@keyframes test {
+  0% {
+    font-size: 0px;
+    color: red;
+  }
+  25% {
+    font-size: 100px;
+    color: pink;
+  }
+  50% {
+    font-size: 30px;
+    color: green;
+  }
+  75% {
+    font-size: 120px;
+    color: yellow;
+  }
+  100% {
+    font-size: 0px;
+    color: blue;
+  }
 }
 
 /* The element to apply the animation to */
-div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
+p {
+  color: red;
+  animation: test 4s infinite alternate ease-in-out;
 }
 ```
 
-**Result:**  
+**Result:**
 
-![](./resources/images/animation-02.gif)
+![](./resources/images/animation-perc.gif)
+
+As with transitions, you will have to assign a duration value, otherwise no animation will be played.
 
 ## Conclusion
 
