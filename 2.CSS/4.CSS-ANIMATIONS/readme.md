@@ -8,11 +8,11 @@ Well, all of this is possible with `Transitions` and `Animations`!
 
 ## Transitions
 
-With out Transitions all changes on a CSS element will happen instantly. Lets imagine we use a `:hover` psuedo-class, normally the effects will happen instantly. But when we add a transition attribute, and all the proper values, we create a smooth transition between the two phases.
+Without transitions all changes on a CSS element will happen instantly. Let's imagine we use a `:hover` pseudo-class. Normally the effects will happen as soon as the mouse hovers over the element. But once we add transition properties and values, we can create a smooth transition between the two phases.
 
-You can use transitions with widths, heights, transforms...
+You can use transitions with widths, heights, transforms, colors...
 
-### How to use a transition in css?
+### How to create a transition in css?
 
 Take a look at the following CSS snippet:
 
@@ -28,7 +28,7 @@ button:hover{
 }
 ```
 
-If we would use this CSS it would result into a button that has a font color of red, but when we hover it, it will wait 1 second, after that, it smoothly change the color red to blue over a period of 0.5 seconds.
+This chunk of CSS code gives a button a font color of red, and when we hover it, it will pause for 1 second then smoothly changes the color red to blue over a period of 0.5 seconds.
 
 #### Lets go over the different values
 
@@ -37,7 +37,7 @@ If we would use this CSS it would result into a button that has a font color of 
 - **transition-timing-function**: What is the speeds of the transition (see below for more info).
 - **Delay**: How much delay should there be when the transition triggers
 
-You can use transitions without using all properties, if you don't assign any values, it will use it's default value.
+You can use transitions without using all properties, if you don't assign any values, it will use its default value.
 
 These are the default values:
 
@@ -45,7 +45,7 @@ These are the default values:
   transition: all 0 ease 0;
 ```
 
-As you can see, in order for your transition to work you can leave all values empty except from the **duration** value, otherwise there will be no smooth transition.
+As you can see, in order for your transition to work you can leave all values empty except from the **duration** value. If you do not set the duration, there will be no smooth transition.
 
 **Note:** The `all` value will animate all different properties if they change. While this can be easy to animate everything quickly, it can lead into strange and unwanted behaviors.
 
