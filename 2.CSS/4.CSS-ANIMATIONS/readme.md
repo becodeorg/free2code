@@ -155,3 +155,5 @@ As with transitions, you will have to assign a duration value, otherwise no anim
 Animations are pretty cool and fun, isn't it? I could tell you much more about transitions and animation, but that is not the point here! Let's dive into the documentation and get our hands dirty! Feel free to experiment and break things!
 
 ![blob.gif](./resources/images/blob.gif)
+source: https://tenor.com/view/monsters-inc-typing-group-chat-is-lit-gif-11492598 
+
