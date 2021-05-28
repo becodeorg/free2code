@@ -14,7 +14,7 @@ You can use transitions with widths, heights, transforms, colors...
 
 ### How to create a transition in css?
 
-Take a look at the following CSS snippet:
+Have a look at the following CSS snippet:
 
 ```CSS
 button {
@@ -77,7 +77,7 @@ In order to use CSS animations you have to use _"keyframes"_, which contains an 
 
 ### How do we use keyframes?
 
-First of all we have to create the keyframes animation, this can be achieved by simply creating a `@keyframes` css rule, next give it a name so we can call it later in our elements.
+First of all, we have to design the keyframes animation, this can be achieved by simply creating a `@keyframes` css rule, next give it a name so we can call it later in our elements.
 
 The next step is to define `from` and where `to` our animation should go. You will see it the following example,
 
@@ -155,5 +155,5 @@ As with transitions, you will have to assign a duration value, otherwise no anim
 Animations are pretty cool and fun, isn't it? I could tell you much more about transitions and animation, but that is not the point here! Let's dive into the documentation and get our hands dirty! Feel free to experiment and break things!
 
 ![blob.gif](./resources/images/blob.gif)
-source: https://tenor.com/view/monsters-inc-typing-group-chat-is-lit-gif-11492598 
+source: https://tenor.com/view/monsters-inc-typing-group-chat-is-lit-gif-11492598
 

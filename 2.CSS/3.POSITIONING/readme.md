@@ -30,7 +30,7 @@ The **height** of a block element will always be decided by its **content** - if
 
 Inline elements behavior is much different than Block elements, they are used to style items inside block elements. Unlike the Block element, which takes the full parents width, the Inline element width is always based on its content.
 
-Take a look at the visual below - You will see that the grey parts (block elements) take the full width of the body. Whilst the blue parts (inline elements) only take the width of its content.
+Have a look at the visual below - You will see that the grey parts (block elements) take the full width of the body. Whilst the blue parts (inline elements) only take the width of its content.
 
 ![](./resources/display-inline-small.png)
 
@@ -49,7 +49,7 @@ img {
 
 ## The CSS Box Model
 
-There is one thing that the `block` and `inline` elements have in common - and that is the `CSS Box Model`. What is that I hear you say, another box? Yep, well not really - it's still the same box we were talking about earlier. But maybe it's time we take a closer look at what is included in this so-called _"box"_.
+There is one thing that the `block` and `inline` elements have in common - and that is the `CSS Box Model`. What is that I hear you say, another box? Yep, well not really - it's still the same box we were talking about earlier. Let's take a closer look at what is included in this so-called _"box"_.
 
 While it maybe sounds and looks complicated, it's easy to understand. This box model is used to calculate how much space there is between/inside each element or if needed, to add a border around the element.
 
@@ -80,7 +80,7 @@ p {  padding: 10px;}
 
 As you can see the blue background behind the p element has increased. And that because we told our CSS to increase the padding by `10px`! Now you see it's doing 10px for all sides, but sometimes we want to style one side only or have different values everywhere.
 
-We can easily do this with the following:
+We can easily do this by doing the following:
 
 ```css
 p {
@@ -100,7 +100,7 @@ _Padding works on `block` and `inline` elements._
 ## Borders
 
 Now the next property of the box model is the Border. By default, most elements have a transparent border.
-If you would like to assign a border to your element, you would have to follow this CSS syntax: Specify the width of the border, then which type of border it should have, and last its color.
+If you would like to assign a border to your element, you would have to follow this CSS syntax: Specify the width of the border, then which type of border it should have, and last its colour.
 
 Let's add a border to our previous padding example!
 
@@ -182,6 +182,6 @@ p {    
 - Those boxes have content, padding, **borders**, and **margins**.
 - Once you know the Box Model, it's easier to master layouts of web pages.
 
-Like the last chapter, the CSS properties we just covered might seem simple—and they sort of are. But, start looking at the websites you visit through the lens of the CSS box model, and you’ll see this stuff literally everywhere.
+The CSS properties we just covered in this chapter might have appeared simple — and they are. Yet they are very powerful: have a look at the websites you visit through the lenses of the CSS box model, and you’ll see that they are used everywhere.
 
 All right, let's go ahead and continue learning by doing a few positioning challenges using 3 techniques: Display, Position, and Flexbox!

@@ -8,42 +8,44 @@ In our previous journey, we have discovered the power of HTML. As you've seen, H
 <p>This is a paragraph.</p>
 ```
 
-But you might have noticed that there is no color at all, it just looks like a plain word document. Which is boring to look at.
+But you might have noticed that there is no colour at all, it just looks like a plain word document. Which is boring to look at.
 
 That's because on top of their HTML, these pages are using another language, called CSS, which job is to make the html look visually better.
 
 In other words, CSS allows us to turn this:
 
-![](resources/images/without-css.png)
+![Source:  https://www.nytimes.com/2020/03/06/arts/raphael-rome-coronavirus.html](resources/images/without-css.png)
 
 Into that:
 
-![](resources/images/with-css.png)
+![Source:  https://www.nytimes.com/2020/03/06/arts/raphael-rome-coronavirus.html](resources/images/with-css.png)
 
 ## What is CSS?
 
 - **CSS** Stands for **C**ascading **S**tyle **S**heets
-- CSS describes how HTML **Elements** are to be displayed on screen.
-- It can control the layout of multiple pages at once.
+- CSS describes how HTML **Elements** are to be rendered visually on computer screens or mobile phone, but also on paper (if you print the page).
+- The same CSS code can control the layout of multiple pages at once to ensure visual coherence.
 
 In short, CSS is what makes our web pages look good and presentable.
 It's a must-have skill for any web developer out there.
 
+(Information adapted from https://www.w3schools.com/Css/css_intro.asp)
+
 ## The CSS Syntax
 
-Look at this schematic, which sums all how to write CSS in a way that the browser understands it.
+Look at this schematic, which sums up all how to write CSS in a way that the browser understands it.
 
 ![](./resources/images/selector.png)
 
 As you can see, there are fancy words here. Don't panick, there won't be much more :-)
 
-"**selector**" indicates which element(s) of your HTML file should receive the instructions. It points to the HTML element you want to style. In this example, all `<p>` tags on the html page will receive the CSS properties assigned to the `p` css selector.
+"**selector**" indicates which element(s) of your HTML file should receive the instructions. It tells which HTML element you want to style. In this example, all `<p>` tags on the html page will receive the CSS properties assigned to the `p` css selector.
 
-The **declaration** block contains one (or several declarations) separated by the semicolon character (`;`).
+The **declaration** block encloses one (or several declarations) separated by the semicolon character (`;`).
 
 Each CSS declaration includes a CSS **property name** and a **value**, separated by a colon (this character `:`).
 
-A CSS declaration always ends with a semicolon (`;`), and declaration blocks are surrounded by curly braces. Example:
+A CSS declaration always ends with a semicolon (`;`), and declaration parts are surrounded by curly braces. Example:
 
 ```css
 h1 {
@@ -59,7 +61,7 @@ There are three ways of implementing CSS in our web-pages.
 ### 1. Inline CSS
 
 Firstly we can include CSS directly in our HTML elements.
-To accomplish this, we make use of the `style` attribute, and write CSS code inside its value (the part in between the quotes). Example :
+To accomplish this, we use the `style` attribute, and write CSS code inside its value (the part in between the quotes). Example :
 
 ```html
 <h1 style="color: blue">Hello world!</h1>
@@ -143,13 +145,13 @@ There are many millions of colours available in Nature.... Which was quite a cha
 
 ### Named colours
 
-A set of standard color names have been defined, letting you use these keywords instead of numeric representations of colors if you choose to do so and there's a keyword representing the exact color you want to use. Color keywords include the standard primary and secondary colors (such as `red`, `blue`, or `orange`), shades of gray (from `black` to `white`, including colors like `darkgray` and `lightgrey`), and a variety of other blended colors including `lightseagreen`, `cornflowerblue`, and `rebeccapurple`.
+The easiest way to start using colours is... by their keyword names! They are easy to remember for us humans, especially for English speakers, since they are in English.  There are currently 140 colour keywords, including primary and secondary colours (such as `red`, `blue`, or `orange`), shades of gray (from `black` to `white`, including `darkgray` and `lightgrey`), and a variety of other blended colours including `AliceBlue`, `DarkOrchid`, and `rebeccapurple`. The full list is available on W3Schools: https://www.w3schools.com/colors/colors_names.asp
 
-It's nice to know they exist, but you will feel fastly limited by having only 140 colours.. So let's rather move on to the next way to express colour values...
+It's nice to know they exist, but you will fastly feel limited by having only 140 colours... So let's rather move on to the next way to express colour values!
 
 ### The RGB system
 
-Quickly computers became more powerful and able to manipulate millions of different colors, using a mix of the fundamental 3 colours of the screen: Red, Green and Blue, which is known as the "RGB system".
+Quickly computers became more powerful and able to manipulate millions of different colours, using a mix of the fundamental 3 colours of the screen: Red, Green and Blue, which is known as the "RGB system".
 
 ```css
 p {
@@ -262,7 +264,7 @@ Okay to explain this a little deeper, let's get our hands dirty!
 
 That sure won't look _exactly_ pretty, but that's not the concern yet.
 
-As you can see, you can specify each border of the rectangle using 3 parameters: the **thickness** of the line (here, in pixels), the line **type** (`solid`, `dashed`, `dotted`), and its **colour**.
+As you have seen, you can specify each border of the rectangle using 3 parameters: the **thickness** of the line (here, in pixels), the line **type** (`solid`, `dashed`, `dotted`), and its **colour**.
 
 Now while you are at it, try to figure out the difference between `padding` and `margin`.
 Play with it's values, we will discuss this in group later on.
@@ -272,8 +274,7 @@ Play with it's values, we will discuss this in group later on.
 As you learn CSS, you will see that CSS is full of hacks and tricks. One really useful one is that you can turn an image like this:
 
 ![Chief Hopper](./resources/images/chiefhopper.jpg)
-
-> _The following image belongs to their respective owners: The Duffer Brothers - a character from "Stranger Things"_
+© image: The Duffer Brothers - https://www.strangerthings.fr
 
 into that:
 

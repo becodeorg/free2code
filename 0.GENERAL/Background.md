@@ -11,9 +11,10 @@ But again, given the fact that networks were only accessible locally, the texts 
 A British scientist named Tim Berners-Lee, who worked at CERN, invented in 1989 a software solution that allowed people to publish content and make it accessible to anyone having the address, across all networks. That's why the Internet is often called: the network of networks.
 And thus, the first web site was born! You can still visit it at this address: http://info.cern.ch
 
-![Tim Berners-Lee ](./assets/Sir_Tim_Berners-Lee_(cropped)-.jpg)
 
 *Portrait of Tim Berners-Lee - © Paul Clarke, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons*
+![Tim Berners-Lee ](./assets/Sir_Tim_Berners-Lee_(cropped)-.jpg)
+Source: https://en.wikipedia.org/wiki/Tim_Berners-Lee
 
 ## A browser to surf on the web
 
@@ -37,7 +38,7 @@ The Internet is the backbone of the Web, the technical infrastructure that makes
 
 So, whereas the Internet is the infrastructure, the Web is a service built on top of the infrastructure. A service enabled by specific software called... **web servers** ! When you visit a website using a browser, the browser acts as a "client", requesting the relevant content to the "web server".
 
-As mentioned on MDN's article ([How the Web works?](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)) :
+As mentioned on MDN (1) :
 
 > - Clients are the typical web user's internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and web-accessing software available on those devices (usually a web browser like Firefox or Chrome).
 > - Servers are computers that store webpages, sites, or apps. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.
@@ -61,3 +62,5 @@ HTML is very easy to learn... So, let's start with that!
 
 
 
+---
+1. [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work) by [Mozilla Contributors](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work/contributors.txt) and is licensed under CC-BY-SA 2.5.

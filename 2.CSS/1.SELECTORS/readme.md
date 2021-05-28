@@ -6,11 +6,11 @@ Do you remember this visual from the introduction ?
 
 ![](./resources/selector.png)
 
-A CSS selector is the part of a CSS rule set that actually selects the content you want to style. Selectors are what allows the browser to know which html element(s) should be painted with which CSS properties.
+A CSS selector is the part of a CSS rule set that selects the content you want to style. Selectors are what allows the browser to know which html element(s) should be painted with which CSS properties.
 
 ![](./resources/css-selector.png)
 
-For example I got this piece of HTML:
+For example examine this piece of HTML:
 
 ```html
 <div class="becode">
@@ -94,15 +94,19 @@ That's where Pseudo-class enter the game...
 
 ![](./resources/psuedo-class-selectors.png)
 
-CSS “pseudo-classes” provide a mechanism for hooking into this kind of temporary user information. At any given time, an `<a href>` element can be in a number of different states, and you can use pseudo-classes to style each one of them individually. Think of them as class selectors that you don’t have to write on your own because they’re built into the browser.
+CSS "pseudo-classes" allow you to control the look of intermediary / temporary states of an element. At any given time, an `<a href>` element can be in a number of different states, and you can use pseudo-classes to style each one of them individually. Think of them as class selectors that you don’t have to write on your own because they’re built into the browser.
 
 ### basic link styles
 
-Pseudo-classes begin with a colon followed by the name of the desired class. The most common link pseudo-classes are as follows:
+Oliver James (InternetingIsHard.com) summarizes the syntax as such:
+
+"Pseudo-classes begin with a colon followed by the name of the desired class. The most common link pseudo-classes are as follows:
 
 - `:link` – A link the user has never visited.
 - `:visited` – A link the user has visited before.
 - `:hover` – A link with the user’s mouse over it.
 - `:active` – A link that’s being pressed down by a mouse (or finger).
+"
+(source: https://www.internetingishard.com/html-and-css/css-selectors/#pseudo-classes-for-links)
 
 That's about it for the CSS Selectors. You have enough information to do the exercises! Don't hesitate to go back here if you cannot manage the exercises - you cannot remember all this. Practice will help you remember ;-)

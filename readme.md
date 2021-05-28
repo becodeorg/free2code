@@ -17,7 +17,7 @@
 	1. [HTML - Semantics exercises](./1.HTML/exercises/Semantics)
 
 1. ### CSS
-	
+
 	#### Introduction
 	1. [CSS - Introduction to CSS](./2.CSS/0.INTRODUCTION-TO-CSS/readme.md)
 	1. [CSS - Introduction to CSS exercises](./2.CSS/0.INTRODUCTION-TO-CSS/exercises.md)
@@ -69,15 +69,21 @@
 	----
 	#### Final Challenge
 	1. [CSS - Final Challenge](./2.CSS/5.FINAL-CHALLENGE/readme.md)
-		
+
 
 1. Logical Thinking games (Blockly)
 	1. https://blockly.games ([offline](https://github.com/google/blockly-games/wiki/Offline) version)
-	
-	
+
+
 1. JavaScript (not required - if possible to integrate as such)
 	1. [Read It](./3.JS/01-Read-It)
 	2. [Fix It](./3.JS/02-Fix-It)
 	3. [Write It](./3.JS/03-Write-It)
 
 
+## Reference list
+- [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work) by [Mozilla Contributors](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work/contributors.txt) and is licensed under CC-BY-SA 2.5.
+- [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) by [Mozilla Contributors](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basicscontributors.txt) and is licensed under CC-BY-SA 2.5.
+- [Using HTML sections and outlines](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines) by [Mozilla Contributors](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines/contributors.txt), licensed under CC-BY-SA 2.5.
+- [CSS Intro - W3Schools](https://www.w3schools.com/Css/css_intro.asp)
+-  CSS Syntax information adapted from: https://www.w3schools.com/css/css_syntax.asp
