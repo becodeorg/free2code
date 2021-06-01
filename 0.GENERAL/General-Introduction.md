@@ -22,5 +22,3 @@ No, you don't. Coding is about trying until it works. So we all start by failing
 ![Free To Code Welcome Picture](./assets/welcome.jpg)
 
 Ready ? Let's go!
-
-![](./assets/quit-basketball.gif)
