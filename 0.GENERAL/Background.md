@@ -1,7 +1,5 @@
 # The internet
-
 ## A network of networks
-
 Before the invention of the internet, many universities and institutions already had some computer infrastructure, consisting of computers connected to each other as local networks. Using these computers, one could therefore publish  content and communicate within its own institution, but not globally.
 
 To write this content, people could use a very simple but powerful innovation: **hypertext**. Hypertext simply means text that can contain "hyperlinks", which is a fancy way to describe a link pointing to texts located in other parts of the network.

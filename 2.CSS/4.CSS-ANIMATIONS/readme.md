@@ -30,7 +30,7 @@ button:hover{
 
 This chunk of CSS code gives a button a font color of red, and when we hover it, it will pause for 1 second then smoothly changes the color red to blue over a period of 0.5 seconds.
 
-#### Lets go over the different values
+#### Let's go over the different values
 
 - **Property**: What do you want to animate? Width,height,color,...
 - **Duration**: How long should the transition last? 0.5 seconds, 1 second, ...
@@ -60,7 +60,7 @@ Take a look at this animation value sheet:
 
 ![Animation-Value-Graph.gif](./resources/images/Animation-Value-Graph.gif)
 
-> Leanndro www.leanndro.com - Animation Value Graph - Timing http://spungella.blogspot.com/2016/03/animation-value-graph-timing.html March 17, 2016
+> Leanndro www.leanndro.com - Animation Value Graph - Timing. Source: http://spungella.blogspot.com/2016/03/animation-value-graph-timing.html March 17, 2016
 
 - The top row shows you the `curve` and animation behind each value.
 - The bottom one shows animations of when we would manipulate this curve.
@@ -155,5 +155,5 @@ As with transitions, you will have to assign a duration value, otherwise no anim
 Animations are pretty cool and fun, isn't it? I could tell you much more about transitions and animation, but that is not the point here! Let's dive into the documentation and get our hands dirty! Feel free to experiment and break things!
 
 ![blob.gif](./resources/images/blob.gif)
-source: https://tenor.com/view/monsters-inc-typing-group-chat-is-lit-gif-11492598
+Source: https://tenor.com/view/monsters-inc-typing-group-chat-is-lit-gif-11492598
 

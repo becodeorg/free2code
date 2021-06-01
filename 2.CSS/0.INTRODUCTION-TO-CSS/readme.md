@@ -60,8 +60,7 @@ There are three ways of implementing CSS in our web-pages.
 
 ### 1. Inline CSS
 
-Firstly we can include CSS directly in our HTML elements.
-To accomplish this, we use the `style` attribute, and write CSS code inside its value (the part in between the quotes). Example :
+We can include CSS directly in our HTML elements. To achieve to this result, we use the `style` attribute, and write CSS code inside its value (the part in between the quotes). Example :
 
 ```html
 <h1 style="color: blue">Hello world!</h1>
@@ -274,7 +273,7 @@ Play with it's values, we will discuss this in group later on.
 As you learn CSS, you will see that CSS is full of hacks and tricks. One really useful one is that you can turn an image like this:
 
 ![Chief Hopper](./resources/images/chiefhopper.jpg)
-© image: The Duffer Brothers - https://www.strangerthings.fr
+© image: The Duffer Brothers. Source: https://www.strangerthings.fr
 
 into that:
 

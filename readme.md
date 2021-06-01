@@ -74,16 +74,20 @@
 1. Logical Thinking games (Blockly)
 	1. https://blockly.games ([offline](https://github.com/google/blockly-games/wiki/Offline) version)
 
+## Reference list (as they appear in the text)
 
-1. JavaScript (not required - if possible to integrate as such)
-	1. [Read It](./3.JS/01-Read-It)
-	2. [Fix It](./3.JS/02-Fix-It)
-	3. [Write It](./3.JS/03-Write-It)
+- Portrait of Tim Berners-Lee - © Paul Clarke, CC BY-SA 4.0, via Wikimedia CommonsSource: https://en.wikipedia.org/wiki/Tim_Berners-Lee
+- Screen capture of the first browser developed by Sir Tim Berners-Lee - Image author: Tim Berners-Lee (public domain) - Source: https://en.wikipedia.org/wiki/WorldWideWeb
+- How does the Internet work? by Mozilla Contributors licensed under CC-BY-SA 2.5. Source: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work
+- HTML Basics by Mozilla Contributors and is licensed under CC-BY-SA 2.5. Source: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+- Using HTML sections and outlines by Mozilla Contributors, licensed under CC-BY-SA 2.5. Source: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines%23section_elements_in_html5
+https://learnabouthtml5.blogspot.com/2016/12/using-html-sections-and-outlines.html
+- Rome celebrates short but beautiful file of Rafael. Source: https://www.nytimes.com/2020/03/06/arts/raphael-rome-coronavirus.html
+- Full list of colors available on W3Schools: https://www.w3schools.com/colors/colors_names.asp
+- The Duffer Brothers. Source: https://www.strangerthings.fr
+- Comments on CSS, adapted from: https://www.w3schools.com/css/css_syntax.asp
+- Oliver James on Pseudo-classes. Source: https://www.internetingishard.com/html-and-css/css-selectors/#pseudo-classes-for-links
+- Animation Value Graph - Timing - Leanndro www.leanndro.com  - Source: http://spungella.blogspot.com/2016/03/animation-value-graph-timing.html
+- Monster Inc Typing GIF. Source: https://tenor.com/view/monsters-inc-typing-group-chat-is-lit-gif-11492598
 
 
-## Reference list
-- [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work) by [Mozilla Contributors](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work/contributors.txt) and is licensed under CC-BY-SA 2.5.
-- [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) by [Mozilla Contributors](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basicscontributors.txt) and is licensed under CC-BY-SA 2.5.
-- [Using HTML sections and outlines](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines) by [Mozilla Contributors](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines/contributors.txt), licensed under CC-BY-SA 2.5.
-- [CSS Intro - W3Schools](https://www.w3schools.com/Css/css_intro.asp)
--  CSS Syntax information adapted from: https://www.w3schools.com/css/css_syntax.asp

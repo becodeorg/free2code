@@ -49,7 +49,7 @@ img {
 
 ## The CSS Box Model
 
-There is one thing that the `block` and `inline` elements have in common - and that is the `CSS Box Model`. What is that I hear you say, another box? Yep, well not really - it's still the same box we were talking about earlier. Let's take a closer look at what is included in this so-called _"box"_.
+There is one thing that the `block` and `inline` elements have in common - and that is the `CSS Box Model`. What is that I hear you say, another box? Yep, well not really - it's still the same box we were talking about earlier. Let's take a close look at what is included in this so-called _"box"_.
 
 While it maybe sounds and looks complicated, it's easy to understand. This box model is used to calculate how much space there is between/inside each element or if needed, to add a border around the element.
 
