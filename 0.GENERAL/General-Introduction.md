@@ -1,6 +1,4 @@
 # General Intro to the Course
-
-![](./assets/learntocode.gif)
 ## Hello World!
 Since the computers and the Internet appeared, they have changed deeply how we play, how we communicate, how we work, how we live. Because of these deep changes in our Society, there are many jobs available for people who have learned to code and solve problems by coding websites and web applications.
 
