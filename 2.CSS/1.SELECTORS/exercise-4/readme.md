@@ -1,6 +1,6 @@
 # CSS DINER
 
-Source: [css diner](https://flukeout.github.io/), licensed under [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/) check [here](https://github.com/flukeout/css-diner/blob/develop/LICENSE) for more details.
+Source: [css diner](https://flukeout.github.io/), licensed under [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/). Check [Full License available here](https://github.com/flukeout/css-diner/blob/develop/LICENSE)
 
 ## Welcome to _CSS Diner_!
 
