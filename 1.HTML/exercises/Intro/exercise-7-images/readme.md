@@ -7,9 +7,9 @@ Unlike the previous tags we have used the `<img>` tag does not have an opening a
 `<img/>`
 Inside this tag we can add different attributes. The following attributes can be added to an img tag: `src`, `width`, `height`.
 
-`src` attribute: the src, or source, attribute tells the image tag what picture it should display.
-`width` attribute: sets the width of the image.
-`height` attribute: sets the height of the image.
+`src` attribute: the src, or source, attribute tells the image tag what picture it should display.  
+`width` attribute: sets the width of the image.  
+`height` attribute: sets the height of the image.  
 
 Try adding the 'funny-goose-sitting-Karen-Arnold.jpg' to this img tag, also fill in the other blank attributes.
 
