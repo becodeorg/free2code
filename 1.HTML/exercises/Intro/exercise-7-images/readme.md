@@ -13,4 +13,4 @@ Inside this tag we can add different attributes. The following attributes can be
 
 Try adding the 'funny-goose-sitting-Karen-Arnold.jpg' to this img tag, also fill in the other blank attributes.
 
-(Copyright information: image by Karen Arnold - released in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/))
+Image copyright: Karen Arnold - released in the [public domain](https://creativecommons.org/publicdomain/zero/1.0/). Source: https://www.publicdomainpictures.net/nl/view-image.php?image=34335&picture=funny-goose-zittend
