@@ -21,7 +21,7 @@ Now, to visit this first website (and the many others which followed) one needed
 
 ![Screen capture of the first browser developed by Sir Tim Berners-Lee - Image author: Tim Berners-Lee](assets/worldwideweb-browser.png)
 
-*Screen capture of the first browser developed by Sir Tim Berners-Lee - Image author: Tim Berners-Lee (public domain). Source: https://en.wikipedia.org/wiki/WorldWideWeb *
+*Screen capture of the first browser developed by Sir Tim Berners-Lee - Image author: Tim Berners-Lee (public domain). Source: https://en.wikipedia.org/wiki/WorldWideWeb*
 
 ## The internet, today
 
