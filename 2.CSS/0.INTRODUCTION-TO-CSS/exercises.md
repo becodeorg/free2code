@@ -68,7 +68,7 @@ Redo the exercise above by removing all inline style and put all style propertie
 
 **Instruction**
 
-Here is some HTML content describing the Canarian Islands as a cool holidays destination. Your job is to make it look better !
+Here is some HTML content describing the Canarian Islands as a cool holiday destination. Your job is to make it look better !
 
 To do the exercises, add all your CSS above the html using one `<style>` tag.  Do each of these exercises in the given order.
 
