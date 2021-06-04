@@ -5,7 +5,7 @@ We can achieve this by using the `<a>` tag, or anchor tag, to link to a differen
 
 For the `<a>` tag to know where to link to, we will have to provide it with some extra information. We do this by using the 'href' attribute. An attribute is always added in the opening tag of an element.
 
-To link to a different page on your webdomain, you use relative links. In that case the href attribute holds the path to the document you're linking to.
+To link to a different page on your web domain, you use relative links. In that case the href attribute holds the path to the document you're linking to.
 
 For example:
 
