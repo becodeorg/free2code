@@ -32,6 +32,6 @@
 ## Done?
 
 Well done! You just completed the first chapter! But you probably noticed that we still have not made something appealing for the eye.
-We will cover that on our next chapter: **CSS**.
+We will cover that in our next chapter: **CSS**.
 
 ![](./resources/gordenReady.gif)
