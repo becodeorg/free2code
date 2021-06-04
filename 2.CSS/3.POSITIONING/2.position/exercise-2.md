@@ -51,4 +51,4 @@ Now re-create this styling as good as possible:
 
 ![sections.png](resources/images/sections.png)
 
-Now make it so that if we scroll down, each case collapses onto eachother. (Leave 20px space between the **top** and the cases.)
+Now make it so that if we scroll down, each case collapses onto each other. (Leave 20px space between the **top** and the cases.)
