@@ -6,7 +6,7 @@ Perhaps you think you need a University degree in Mathematics and nuclear engine
 
 ## What you can expect
 
-The objectives of this training is to allow you to have a try at programming and logical thinking, to see if you too find it fun and something you would like to pursue once you get out of jail.
+The objectives of this training are to allow you to have a try at programming and logical thinking, to see if you too find it fun and something you would like to pursue once you get out of jail.
 
 This course will have you learn the basics of website making and programming using the 2 main languages of the web: HTML and CSS. By the end of the training, you will be more than ready to join a coding bootcamp that will help you reach a level in which you can get a real job as a programmer!
 
@@ -19,4 +19,4 @@ No, you don't. Coding is about trying until it works. So we all start by failing
 ## A final word from the team
 ![Free To Code Welcome Picture](./assets/welcome.jpg)
 
-Ready ? Let's go!
+Ready? Let's go!
