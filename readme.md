@@ -81,7 +81,7 @@
 1. How does the Internet work? by Mozilla Contributors licensed under CC-BY-SA 2.5. Source: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work
 1. HTML Basics by Mozilla Contributors and is licensed under CC-BY-SA 2.5. Source: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
 1. Using HTML sections and outlines by Mozilla Contributors, licensed under CC-BY-SA 2.5. Source: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines%23section_elements_in_html5
-https://learnabouthtml5.blogspot.com/2016/12/using-html-sections-and-outlines.html
+1. [Using HTML sections and outlines](https://learnabouthtml5.blogspot.com/2016/12/using-html-sections-and-outlines.html)
 1. Rome celebrates short but beautiful file of Rafael. Source: https://www.nytimes.com/2020/03/06/arts/raphael-rome-coronavirus.html
 1. Full list of colors available on W3Schools: https://www.w3schools.com/colors/colors_names.asp
 1. The Duffer Brothers. Source: https://www.strangerthings.fr
